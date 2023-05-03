@@ -17,7 +17,7 @@ export default function Home() {
       <Logos />
       <References />
       <Price />
-      <Contact />
+      {/* <Contact /> */}
       <About />
     </main>
   );
