@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Services() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -32,13 +34,13 @@ export default function Services() {
             Cheese on toast airedale the big cheese. Danish fontina cheesy grin
             airedale danish
           </p>
-          <a
+          <Link
             href="/"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
           >
             Learn more
-          </a>
+          </Link>
         </div>
         <div className="sm:text-center">
           <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
@@ -61,13 +63,13 @@ export default function Services() {
             Satoshi Nakamoto launched lots of decentralisation when Litecoin
             required
           </p>
-          <a
+          <Link
             href="/"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
           >
             Learn more
-          </a>
+          </Link>
         </div>
         <div className="sm:text-center">
           <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
@@ -90,13 +92,13 @@ export default function Services() {
             Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
             mechad
           </p>
-          <a
+          <Link
             href="/"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
           >
             Learn more
-          </a>
+          </Link>
         </div>
       </div>
     </div>

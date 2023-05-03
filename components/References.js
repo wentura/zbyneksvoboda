@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function References() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -36,13 +37,13 @@ export default function References() {
                   cheese port-salut.
                 </p>
               </div>
-              <a
+              <Link
                 href="/"
                 aria-label=""
                 className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 Learn more
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -76,17 +77,17 @@ export default function References() {
                 </h6>
                 <p className="mb-2 text-sm text-gray-900">
                   A flower in my garden, a mystery in my panties. Heart attack
-                  never stopped old Big Bear. I didn't even know we were calling
+                  never stopped old Big Bear. I didnt even know we were calling
                   him Big Bear. We never had the chance to.
                 </p>
               </div>
-              <a
+              <Link
                 href="/"
                 aria-label=""
                 className="inline-flex items-center text-sm font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
               >
                 Learn more
-              </a>
+              </Link>
             </div>
           </div>
         </div>
