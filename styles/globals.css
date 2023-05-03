@@ -24,7 +24,6 @@ h6 {
 .navbar {
   z-index: 2 !important;
 }
-
 .scroll-element {
   /* overflow: hidden; */
   display: flex;
@@ -49,5 +48,13 @@ h6 {
   }
   100% {
     transform: translate3d(0, -4100px, 0); /* The image width */
+  }
+}
+
+@media (max-width: 640px) {
+  .bg-webdev {
+    background-image: url("/img/webdev.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

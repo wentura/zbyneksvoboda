@@ -74,11 +74,11 @@ export default function ShortReference() {
             </p>
             <p className="text-base text-gray-900 pb-8">
               <a
-                href="http://www.harasov.eu"
+                href="https://www.hexfit.eu/"
                 target="_blank"
                 className="underline underline-offset-2 decoration-1 decoration-gray-400"
               >
-                Harasov.eu
+                Hexfit.eu
               </a>
             </p>
           </div>
@@ -108,7 +108,7 @@ export default function ShortReference() {
               >
                 Faberpoint.eu
               </a>
-              , kde si naklikáte valstní sklad a vysněné prolézačky.
+              , kde si naklikáte vlastní sklad a vysněné prolézačky.
               <br />
               Na jeden klik vše do košíku.
             </p>

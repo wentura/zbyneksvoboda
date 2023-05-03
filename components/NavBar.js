@@ -86,7 +86,8 @@ export default function NavBar() {
               </Link>
             </li>
           </ul>
-          <div className="lg:hidden">
+          {/* <div className="lg:hidden"> */}
+          <div className="hidden">
             <button
               aria-label="Open Menu"
               title="Open Menu"
