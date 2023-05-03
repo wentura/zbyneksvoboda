@@ -2,103 +2,93 @@ import Link from "next/link";
 
 export default function Services() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-          quick, brown fox jumps over a lazy dog
+    <div className="px-4 my-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-4 lg:py-20" id="s_cim_vam_pomohu">
+      <div className="max-w-full mb-10 mx-auto text-center md:mb-12">
+        <h2 className="max-w-lg mb-6 font-sans text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:text-5xl md:mx-auto">
+          S čím Vám pomohu
         </h2>
-        <p className="text-base text-gray-700 md:text-lg">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+        <p className="text-base text-gray-900 md:text-lg">
+          <br />
+          Tvořím moderní, úspěšné a hlavně funkční weby, e-shopy a aplikace.
+          <br />
+          Použitím nejmodernějších technologií a s individuálním přístupem
+          dodávám řešení přímo na míru.
         </p>
       </div>
-      <div className="grid gap-8 row-gap-8 lg:grid-cols-3">
+      <div className="grid gap-8 row-gap-8 lg:grid-cols-2 justify-center justify-items-center">
         <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-semibold leading-5">The good cheese</h6>
-          <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
-            Cheese on toast airedale the big cheese. Danish fontina cheesy grin
-            airedale danish
+          <h6 className="mb-2 font-semibold leading-5 text-xl md:text-2xl pb-2">
+            Tvorba webových stránek a aplikací
+          </h6>
+          <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
+            Tvořím rychlé, responzivní (dobře vypadající na mobilu) a funční
+            webové stránky, které majitelům přináší užitek.
+            <br />S přesahem do webdesignu, psychologie chování uživatelů a s
+            empatií cílové skupiny nabízím klientům víc než jen dodání produktu,
+            já{" "}
+            <span className="p-1 bg-slate-100 shadow-md">
+              svými weby žiju
+            </span>{" "}
+            a za svou prací si stojím.
           </p>
-          <Link
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-          </Link>
         </div>
         <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-semibold leading-5">Chainsaw foal hay</h6>
-          <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
-            Satoshi Nakamoto launched lots of decentralisation when Litecoin
-            required
+          <h6 className="mb-2 font-semibold leading-5  text-xl md:text-2xl pb-2">
+            Úprava stávajících řešení
+          </h6>
+          <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
+            Nefunguje Váš web jak má? Je pomalý? Zastaralý? Nabízím optimalizaci
+            výkonu, renovaci a modernizaci stávajících webových stránek,
+            vytvoření{" "}
+            <span className="p-1 bg-slate-100 shadow-md">
+              moderního designu
+            </span>
+            , který zaujme zákazníky a posune Vás vpřed.
           </p>
-          <Link
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-          </Link>
         </div>
         <div className="sm:text-center">
-          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50 sm:mx-auto sm:w-24 sm:h-24">
-            <svg
-              className="w-12 h-12 text-deep-purple-accent-400 sm:w-20 sm:h-20"
-              stroke="currentColor"
-              viewBox="0 0 52 52"
-            >
-              <polygon
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"
-              />
-            </svg>
-          </div>
-          <h6 className="mb-2 font-semibold leading-5">Pick up truck</h6>
-          <p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
-            Bavaria ipsum dolor sit amet Radler Schneid vui huift vui ognudelt i
-            mechad
+          <h6 className="mb-2 font-semibold leading-5  text-xl md:text-2xl pb-2">
+            Úprava a ladění e-shopů
+          </h6>
+          <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
+            Provozujete e-shop a neplní Vaše očekávání, nebo začínáte?
+            <br />
+            Rád Vám pomohu s odladěním, nastavením a zlepšením uživatelského
+            prožitku z Vašeho e-shopu.
+            <br />
+            Zkušenosti mám z projektů na platformách
+            <span className="p-1 bg-slate-100 shadow-md">shoptet</span> a
+            <span className="p-1 bg-slate-100 shadow-md">woocommerce</span>.
           </p>
-          <Link
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-          >
-            Learn more
-          </Link>
+        </div>
+        <div className="sm:text-center">
+          <h6 className="mb-2 font-semibold leading-5 text-xl md:text-2xl pb-2">
+            Návrh UX / UI
+          </h6>
+          <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
+            Sleduji{" "}
+            <span className="p-1 bg-slate-100 shadow-md">
+              nejmodernějsí trendy ve webdesignu
+            </span>
+            , aby Vaše stránky měly atraktivní vzhled, byly snadno použitelné a
+            splňovaly vytyčené cíle.
+          </p>
+        </div>
+      </div>
+      <div className="mt-8 lg:mt-8 grid gap-8 row-gap-8 lg:grid-cols-1 justify-center justify-items-center mx-center">
+        <div className="sm:text-center">
+          <h6 className="mb-2 font-semibold leading-5 text-xl md:text-2xl pb-2">
+            Konzultace
+          </h6>
+          <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
+            Potřebujete poradit ohledně tvorby webu, optimalizaci obsahu,
+            zlepšení uživatelského rozhraní nebo vylepšením celkového designu
+            Vašich stránek?{" "}
+            <span className="p-1 bg-slate-100 shadow-md">
+              Rád pomohu najít řešení
+            </span>
+            .
+          </p>
         </div>
       </div>
     </div>

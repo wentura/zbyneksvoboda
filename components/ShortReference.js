@@ -1,53 +1,196 @@
 import Image from "next/image";
-import Link from "next/link";
 export default function ShortReference() {
   return (
-    <div className="relative px-4 pt-16 mx-auto lg:py-32 md:px-8 xl:px-20 sm:max-w-xl md:max-w-full">
-      <div className="max-w-xl mx-auto lg:max-w-screen-xl">
-        <div className="mb-16 lg:max-w-lg lg:mb-0">
-          <div className="max-w-xl mb-6">
-            <div>
-              <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                Brand new
-              </p>
-            </div>
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-              The quick, brown fox
-              <br className="hidden md:block" />
-              jumps over{" "}
-              <span className="inline-block text-deep-purple-accent-400">
-                a lazy dog
-              </span>
-            </h2>
-            <p className="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
+    <div className="w-full my-20 bg-slate-100 shadow-xl py-20" id="reference">
+      <div className="px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-4 lg:py-20">
+        <div className="max-w-full mb-10 mx-auto text-center md:mb-12">
+          <h2 className="max-w-2xl mb-6 font-sans text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:text-5xl md:mx-auto">
+            Reference a ukázky prací
+          </h2>
+        </div>
+        <div className="max-w-4xl mx-auto lg:max-w-screen-xl flex flex-wrap  justify-between my-4 py-4 md:py-12">
+          <div className="h-full w-full md:w-2/3 mx-auto md:mx-0 px-2 lg:px-8">
+            <h3 className="mb-6 font-sans text-xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none text-center lg:pt-12">
+              Harasov.eu
+            </h3>
+            <p className="text-base text-gray-900 pb-4">
+              Webová prezentace pro Harasov, který nabízí nadstandardní služby
+              jak v ubytování, tak i v restauraterství.
+              <br />S panem Kamilem připravujeme další webové stánky pro jeho
+              rozmanité aktivity.
+            </p>
+            <p className="text-base text-gray-900 pb-4">
+              <ul className="ps-2 md:ps-12">
+                <li>Statická webová stránka</li>
+                <li>Plně responzivní</li>
+                <li>
+                  Grafika od{" "}
+                  <a
+                    href="http://mowshe.cz/"
+                    target="_blank"
+                    className="underline underline-offset-2 decoration-1 decoration-gray-400"
+                  >
+                    mowshe.cz
+                  </a>
+                </li>
+                <li>Funkce editovatelného jídelního lístku</li>
+              </ul>
+            </p>
+            <p className="text-base text-gray-900 pb-8">
+              <a
+                href="http://www.harasov.eu"
+                target="_blank"
+                className="underline underline-offset-2 decoration-1 decoration-gray-400"
+              >
+                Harasov.eu
+              </a>
             </p>
           </div>
-          <div className="flex items-center">
-            <Link
-              href="/"
-              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-            >
-              Get started
-            </Link>
-            <Link
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              Learn more
-            </Link>
+          <div className="h-full w-3/4 md:w-1/3 mx-auto	flex justify-center md:rotate-6">
+            <Image
+              src="/img/portfolio/hara.jpg"
+              alt=""
+              width="600"
+              height="800"
+              className="shadow-md  max-h-96 w-auto justify-self-end"
+            />
           </div>
         </div>
-      </div>
-      <div className="flex justify-center h-full overflow-hidden lg:w-2/3 xl:w-1/2 lg:absolute lg:justify-start lg:bottom-0 lg:right-0 lg:items-end">
-        <Image
-          src="https://kitwind.io/assets/kometa/full-browser.png"
-          className="object-cover object-top w-full h-64 max-w-xl -mb-16 rounded shadow-2xl lg:ml-64 xl:ml-8 lg:-mb-24 xl:-mb-28 lg:h-auto lg:max-w-screen-md"
-          alt=""
-        />
+        <div className="max-w-4xl mx-auto lg:max-w-screen-xl flex flex-wrap  justify-between my-4 py-4 md:py-12 md:flex-row-reverse">
+          <div className="h-full w-full md:w-2/3 mx-auto md:mx-0 px-2 lg:px-8">
+            <h3 className="mb-6 font-sans text-xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none text-center lg:pt-12">
+              Hexfit.eu{" "}
+            </h3>
+            <p className="text-base text-gray-900 pb-4">
+              Odlehčení a zjednodušení celé Shoptet šablony, aby vyhovovala
+              klientce a jejímu záměru. Předlohou byl zahraniční e-shop s
+              podobnou tématikou.
+            </p>
+            <p className="text-base text-gray-900 pb-4">
+              <ul className="ps-2 md:ps-12">
+                <li>Upravená Shoptet šablona</li>
+                <li>Skrývání částí webu, aby jsem celek odlehčil.</li>
+              </ul>
+            </p>
+            <p className="text-base text-gray-900 pb-8">
+              <a
+                href="http://www.harasov.eu"
+                target="_blank"
+                className="underline underline-offset-2 decoration-1 decoration-gray-400"
+              >
+                Harasov.eu
+              </a>
+            </p>
+          </div>
+          <div className="h-full w-3/4 md:w-1/3 mx-auto	flex justify-center md:-rotate-6">
+            <Image
+              src="/img/portfolio/hexfit.png"
+              alt=""
+              width="600"
+              height="800"
+              className="shadow-md max-h-96 w-auto justify-self-start"
+            />
+          </div>
+        </div>{" "}
+        <div className="max-w-4xl mx-auto lg:max-w-screen-xl flex flex-wrap  justify-between my-4 py-4 md:py-12">
+          <div className="h-full w-full md:w-2/3 mx-auto md:mx-0 px-2 lg:px-8">
+            <h3 className="mb-6 font-sans text-xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none text-center lg:pt-12">
+              AntonieEmma.cz
+            </h3>
+            <p className="text-base text-gray-900 pb-4">
+              E-shop českého výrobce dětských pohybových hraček.
+              <br />
+              Doprovodný projekt{" "}
+              <a
+                href="https://faberpoint.eu/"
+                target="_blank"
+                className="underline underline-offset-2 decoration-1 decoration-gray-400"
+              >
+                Faberpoint.eu
+              </a>
+              , kde si naklikáte valstní sklad a vysněné prolézačky.
+              <br />
+              Na jeden klik vše do košíku.
+            </p>
+            <p className="text-base text-gray-900 pb-4">
+              <ul className="ps-2 md:ps-12">
+                <li>Úprava Shoptet šablony.</li>
+                <li>
+                  Vyladění detailů, zjednodušení a zpřehlednení celého vzhledu
+                  e-shopu.
+                </li>
+                <li>Nastavení newsletterů</li>
+                <li>Funkce přidání celého seznamu položek do košíku</li>
+              </ul>
+            </p>
+            <p className="text-base text-gray-900 pb-8">
+              <a
+                href="http://www.harasov.eu"
+                target="_blank"
+                className="underline underline-offset-2 decoration-1 decoration-gray-400"
+              >
+                AntonieEmma.cz{" "}
+              </a>
+            </p>
+          </div>
+          <div className="h-full w-3/4 md:w-1/3 mx-auto	flex justify-center md:rotate-6">
+            <Image
+              src="/img/portfolio/ae.png"
+              alt=""
+              width="600"
+              height="800"
+              className="shadow-md  max-h-96 w-auto justify-self-end"
+            />
+          </div>
+        </div>
+        <div className="max-w-4xl mx-auto lg:max-w-screen-xl flex flex-wrap  justify-between my-4 py-4 md:py-12 md:flex-row-reverse">
+          <div className="h-full w-full md:w-2/3 mx-auto md:mx-0 px-2 lg:px-8">
+            <h3 className="mb-6 font-sans text-xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none text-center lg:pt-12">
+              ZodpovědnáVýuka.cz
+            </h3>
+            <p className="text-base text-gray-900 pb-4">
+              Vyladěný Shoptet, k nepoznání upravená šablona. S paní Kateřinou
+              spolupracuji i na dalších projektech, z posledních je to{" "}
+              <a
+                href="https://zodpovednyhub.cz/"
+                target="_blank"
+                className="underline underline-offset-2 decoration-1 decoration-gray-400"
+              >
+                ZodpovědnýHub.cz
+              </a>
+            </p>
+            <p className="text-base text-gray-900 pb-4">
+              <ul className="ps-2 md:ps-12">
+                <li>Úprava Shoptet šablony</li>
+                <li>
+                  Úprava chování Shoptetu, přidávání a skrývání částí webu
+                </li>
+                <li>
+                  Samostatné stánky pro vybrané produkty, doplňkové funkce k
+                  produktům (zvukové ukázky)
+                </li>
+              </ul>
+            </p>
+            <p className="text-base text-gray-900 pb-8">
+              <a
+                href="https://www.zodpovednavyuka.cz/"
+                target="_blank"
+                className="underline underline-offset-2 decoration-1 decoration-gray-400"
+              >
+                ZodpovednaVyuka.cz
+              </a>
+            </p>
+          </div>
+          <div className="h-full w-3/4 md:w-1/3 mx-auto	flex justify-center md:-rotate-6">
+            <Image
+              src="/img/portfolio/zv.jpg"
+              alt=""
+              width="600"
+              height="800"
+              className="shadow-md max-h-96 w-auto justify-self-start"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

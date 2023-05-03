@@ -13,12 +13,12 @@ export default function Home() {
       <Hero />
       <Services />
       <ShortReference />
-      <How />
       <Logos />
+      <How />
       <References />
       <Price />
       {/* <Contact /> */}
-      <About />
+      <About id="about_me" />
     </main>
   );
 }

@@ -1,3 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Yeseva+One&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Yeseva One', cursive; 
+*/
+html {
+  scroll-behavior: smooth !important;
+}
+body {
+  font-family: "Josefin Sans" !important;
+  font-weight: 300 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Yeseva One" !important;
+}
+.navbar {
+  z-index: 2 !important;
+}
+
+.scroll-element {
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  transform: translate3d(0, 0, 0);
+  /* z-index: -1 !important; */
+}
+
+.scroll-element img {
+  /* height: 600px !important; */
+  /* width: 400px !important; */
+  padding-top: 30px;
+  transform: translate3d(0, 0, 0);
+  animation: slide 120s linear infinite alternate;
+  /* z-index: -1 !important; */
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 850px, 0);
+  }
+  100% {
+    transform: translate3d(0, -4100px, 0); /* The image width */
+  }
+}

@@ -2,7 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 export default function About() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div
+      className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+      id="about_me"
+    >
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="lg:pr-10">
           <Link
@@ -79,7 +82,7 @@ export default function About() {
           </div>
         </div>
         <div>
-          <Image
+          <img
             className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
             src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
             alt=""
