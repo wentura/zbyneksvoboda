@@ -19,23 +19,21 @@ export default function ShortReference() {
               <br />S panem Kamilem připravujeme další webové stánky pro jeho
               rozmanité aktivity.
             </p>
-            <p className="text-base text-gray-900 pb-4">
-              <ul className="ps-2 md:ps-12">
-                <li>Statická webová stránka</li>
-                <li>Plně responzivní</li>
-                <li>
-                  Grafika od{" "}
-                  <a
-                    href="http://mowshe.cz/"
-                    target="_blank"
-                    className="underline underline-offset-2 decoration-1 decoration-gray-400"
-                  >
-                    mowshe.cz
-                  </a>
-                </li>
-                <li>Funkce editovatelného jídelního lístku</li>
-              </ul>
-            </p>
+            <ul className="ps-2 md:ps-12 text-base text-gray-900 pb-4">
+              <li>Statická webová stránka</li>
+              <li>Plně responzivní</li>
+              <li>
+                Grafika od{" "}
+                <a
+                  href="http://mowshe.cz/"
+                  target="_blank"
+                  className="underline underline-offset-2 decoration-1 decoration-gray-400"
+                >
+                  mowshe.cz
+                </a>
+              </li>
+              <li>Funkce editovatelného jídelního lístku</li>
+            </ul>
             <p className="text-base text-gray-900 pb-8">
               <a
                 href="http://www.harasov.eu"
@@ -66,12 +64,10 @@ export default function ShortReference() {
               klientce a jejímu záměru. Předlohou byl zahraniční e-shop s
               podobnou tématikou.
             </p>
-            <p className="text-base text-gray-900 pb-4">
-              <ul className="ps-2 md:ps-12">
-                <li>Upravená Shoptet šablona</li>
-                <li>Skrývání částí webu, aby jsem celek odlehčil.</li>
-              </ul>
-            </p>
+            <ul className="ps-2 md:ps-12 text-base text-gray-900 pb-4">
+              <li>Upravená Shoptet šablona</li>
+              <li>Skrývání částí webu, aby jsem celek odlehčil.</li>
+            </ul>
             <p className="text-base text-gray-900 pb-8">
               <a
                 href="https://www.hexfit.eu/"
@@ -112,20 +108,18 @@ export default function ShortReference() {
               <br />
               Na jeden klik vše do košíku.
             </p>
-            <p className="text-base text-gray-900 pb-4">
-              <ul className="ps-2 md:ps-12">
-                <li>Úprava Shoptet šablony.</li>
-                <li>
-                  Vyladění detailů, zjednodušení a zpřehlednení celého vzhledu
-                  e-shopu.
-                </li>
-                <li>Nastavení newsletterů</li>
-                <li>Funkce přidání celého seznamu položek do košíku</li>
-              </ul>
-            </p>
+            <ul className="ps-2 md:ps-12 text-base text-gray-900 pb-4">
+              <li>Úprava Shoptet šablony.</li>
+              <li>
+                Vyladění detailů, zjednodušení a zpřehlednení celého vzhledu
+                e-shopu.
+              </li>
+              <li>Nastavení newsletterů</li>
+              <li>Funkce přidání celého seznamu položek do košíku</li>
+            </ul>
             <p className="text-base text-gray-900 pb-8">
               <a
-                href="http://www.harasov.eu"
+                href="https://www.antonieemma.cz/"
                 target="_blank"
                 className="underline underline-offset-2 decoration-1 decoration-gray-400"
               >
@@ -159,18 +153,14 @@ export default function ShortReference() {
                 ZodpovědnýHub.cz
               </a>
             </p>
-            <p className="text-base text-gray-900 pb-4">
-              <ul className="ps-2 md:ps-12">
-                <li>Úprava Shoptet šablony</li>
-                <li>
-                  Úprava chování Shoptetu, přidávání a skrývání částí webu
-                </li>
-                <li>
-                  Samostatné stánky pro vybrané produkty, doplňkové funkce k
-                  produktům (zvukové ukázky)
-                </li>
-              </ul>
-            </p>
+            <ul className="ps-2 md:ps-12 text-base text-gray-900 pb-4">
+              <li>Úprava Shoptet šablony</li>
+              <li>Úprava chování Shoptetu, přidávání a skrývání částí webu</li>
+              <li>
+                Samostatné stánky pro vybrané produkty, doplňkové funkce k
+                produktům, zvukové ukázky
+              </li>
+            </ul>
             <p className="text-base text-gray-900 pb-8">
               <a
                 href="https://www.zodpovednavyuka.cz/"

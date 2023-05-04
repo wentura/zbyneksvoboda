@@ -2,7 +2,10 @@ import Link from "next/link";
 
 export default function Services() {
   return (
-    <div className="px-4 my-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-4 lg:py-20" id="s_cim_vam_pomohu">
+    <div
+      className="px-4 my-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-4 lg:py-20"
+      id="s_cim_vam_pomohu"
+    >
       <div className="max-w-full mb-10 mx-auto text-center md:mb-12">
         <h2 className="max-w-lg mb-6 font-sans text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:text-5xl md:mx-auto">
           S čím Vám pomohu
@@ -74,8 +77,6 @@ export default function Services() {
             splňovaly vytyčené cíle.
           </p>
         </div>
-      </div>
-      <div className="mt-8 lg:mt-8 grid gap-8 row-gap-8 lg:grid-cols-1 justify-center justify-items-center mx-center">
         <div className="sm:text-center">
           <h6 className="mb-2 font-semibold leading-5 text-xl md:text-2xl pb-2">
             Konzultace
@@ -88,6 +89,19 @@ export default function Services() {
               Rád pomohu najít řešení
             </span>
             .
+          </p>
+        </div>
+        <div className="sm:text-center">
+          <span className="mb-2 font-semibold leading-5 text-xl md:text-2xl pb-2">
+            <Link href="#about_me">
+              <p className="bg-green-300 text-lg w-fit my-4 px-4 py-2 rounded-xl shadow-md mx-auto text-gray-900 font-extrabold">
+                Začněme spolupráci
+              </p>
+            </Link>
+          </span>
+          <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
+            Pojdmě si nezávazně popovídat o Vašich projektech. Najděme společně
+            řešení a převeďme Vaše plány a sny v realitu.
           </p>
         </div>
       </div>

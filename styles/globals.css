@@ -38,7 +38,7 @@ h6 {
   /* width: 400px !important; */
   padding-top: 30px;
   transform: translate3d(0, 0, 0);
-  animation: slide 120s linear infinite alternate;
+  animation: slide 240s linear infinite alternate;
   /* z-index: -1 !important; */
 }
 

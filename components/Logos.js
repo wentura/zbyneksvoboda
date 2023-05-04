@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Logos() {
   return (
-    <div className="hidden md:flex px-4 my-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className="hidden md:flex px-4 my-16 mx-auto justify-center sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid grid-cols-2 gap-4 row-gap-3 sm:grid-cols-4 lg:grid-cols-6">
         <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 sm:w-24 sm:h-24">
           <Image

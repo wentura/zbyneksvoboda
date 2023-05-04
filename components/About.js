@@ -50,7 +50,7 @@ export default function About() {
               <p className="flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewbox="0 0 20 20"
+                  viewBox="0 0 20 20"
                   fill="currentColor"
                   className="w-5 h-5 mr-2 sm:mr-6"
                 >
@@ -72,11 +72,11 @@ export default function About() {
                   width="24"
                   height="24"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <rect x="7" y="3" width="14" height="14" rx="2" />

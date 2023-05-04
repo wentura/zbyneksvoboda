@@ -87,7 +87,7 @@ export default function References() {
               AntonieEmma.cz, Zoe8.eu
             </p>
             <p className="text-sm tracking-wide text-gray-800">
-              Super, naprostá m<span class="text-gray-300">r</span>da!
+              Super, naprostá m<span className="text-gray-300">r</span>da!
             </p>
           </div>
         </div>

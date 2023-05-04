@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function How() {
   return (
@@ -279,6 +280,13 @@ export default function How() {
             <div className="pt-12">
               Po dokončení projektu se ho snažím rozvíjet a modernizovat.
               <br />S většinou svých klientů udržuji dlouhodobou spolupráci.
+            </div>
+            <div className="pt-12">
+              <Link href="#about_me">
+                <p className="bg-green-300 text-lg w-fit my-4 px-4 py-2 rounded-xl shadow-md mx-auto text-gray-900 font-extrabold">
+                  Pusťme se společně do práce
+                </p>
+              </Link>
             </div>
           </div>
           <div className="relative">
