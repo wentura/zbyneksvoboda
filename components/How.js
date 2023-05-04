@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function How() {
   return (
     <div
-      className="hidden md:flex w-full my-20 bg-slate-100 shadow-xl py-20"
+      className="hidden md:flex w-full my-20 bg-slate-100 shadow-xl py-20 scroll-mt-32	"
       id="jak_pracuji"
     >
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">

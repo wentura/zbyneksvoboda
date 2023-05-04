@@ -1,7 +1,10 @@
 import Link from "next/link";
 export default function Price() {
   return (
-    <div className="w-full my-20 bg-slate-100 shadow-xl py-20" id="cenik">
+    <div
+      className="w-full my-20 bg-slate-100 shadow-xl py-20 scroll-mt-32	"
+      id="cenik"
+    >
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-full mb-10 mx-auto text-center md:mb-12">
           <h2 className="max-w-2xl mb-6 font-sans text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:text-5xl md:mx-auto">

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function References() {
   return (
     <div
-      className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
+      className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20  scroll-mt-32	"
       id="recenze"
     >
       <div className="max-w-full mb-10 mx-auto text-center md:mb-12">

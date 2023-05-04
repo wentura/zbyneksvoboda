@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Services() {
   return (
     <div
-      className="px-4 my-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-4 lg:py-20"
+      className="px-4 my-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-4 lg:py-20 scroll-mt-32	"
       id="s_cim_vam_pomohu"
     >
       <div className="max-w-full mb-10 mx-auto text-center md:mb-12">

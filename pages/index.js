@@ -1,15 +1,19 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import How from "@/components/How";
 import Logos from "@/components/Logos";
+import Navbar from "@/components/Navbar";
 import Price from "@/components/Price";
 import References from "@/components/References";
 import Services from "@/components/Services";
 import ShortReference from "@/components/ShortReference";
+
 export default function Home() {
   return (
     <main className="">
+      <Navbar />
       <Hero />
       <Services />
       <ShortReference />
@@ -19,6 +23,7 @@ export default function Home() {
       <Price />
       {/* <Contact /> */}
       <About id="about_me" />
+      <Footer />
     </main>
   );
 }

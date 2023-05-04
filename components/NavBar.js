@@ -2,12 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 export default function Navbar() {
-  const [count, setCount] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
-
-  function increase() {
-    setCount(count + 1);
-  }
 
   console.log("toggleMenu");
   function toggleMenu() {
@@ -16,11 +11,6 @@ export default function Navbar() {
 
   return (
     <div className="navbar w-full sticky top-0 z-10 bg-white">
-      {count}
-      {console.log("v tele")}
-      <button type="button" onClick={increase}>
-        ++
-      </button>
       <div className="px-4 py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
           <Link
@@ -124,37 +114,11 @@ export default function Navbar() {
             <nav
               className={`${
                 isOpen ? "block" : "hidden"
-              } absolute top-12 left-0 right-0 bg-gray-200 px-2 pt-2 pb-4 z-20`}
+              } absolute top-12 left-0 right-0 px-0 pt-0 pb-4 z-20`}
             >
-              <div className="p-5 bg-white border rounded shadow-sm">
+              <div className="px-1 py-2 bg-white border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
-                  <div>
-                    <Link
-                      href="/"
-                      aria-label="Company"
-                      title="Company"
-                      className="inline-flex items-center"
-                    >
-                      <svg
-                        className="w-8 text-deep-purple-accent-400"
-                        viewBox="0 0 24 24"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeMiterlimit="10"
-                        stroke="currentColor"
-                        fill="none"
-                      >
-                        <rect x="3" y="1" width="7" height="12" />
-                        <rect x="3" y="17" width="7" height="6" />
-                        <rect x="14" y="1" width="7" height="6" />
-                        <rect x="14" y="11" width="7" height="12" />
-                      </svg>
-                      <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        Company
-                      </span>
-                    </Link>
-                  </div>
+                  <div></div>
                   <div>
                     <button
                       aria-label="Close Menu"
@@ -171,26 +135,77 @@ export default function Navbar() {
                     </button>
                   </div>
                 </div>
-                <nav>
+                <nav className="text-center pb-8">
                   <ul className="space-y-4">
                     <li>
                       <Link
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
+                        onClick={toggleMenu}
+                        href="#s_cim_vam_pomohu"
+                        aria-label="S čím vám pomohu"
+                        title="S čím vám pomohu"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Product
+                        S čím vám pomohu
                       </Link>
                     </li>
+
                     <li>
                       <Link
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
+                        onClick={toggleMenu}
+                        href="#reference"
+                        aria-label="Reference"
+                        title="Reference"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
-                        Features
+                        Reference
+                      </Link>
+                    </li>
+
+                    {/* <li>
+                      <Link
+                        onClick={toggleMenu}
+                        href="#jak_pracuji"
+                        aria-label="Spolupráce"
+                        title="Spolupráce"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Spolupráce
+                      </Link>
+                    </li> */}
+
+                    <li>
+                      <Link
+                        onClick={toggleMenu}
+                        href="#recenze"
+                        aria-label="Recenze"
+                        title="Recenze"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Recenze
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link
+                        onClick={toggleMenu}
+                        href="#cenik"
+                        aria-label="Ceník"
+                        title="Ceník"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Ceník
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link
+                        onClick={toggleMenu}
+                        href="#about_me"
+                        aria-label="Kontakt"
+                        title="Kontakt"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                      >
+                        Kontakt
                       </Link>
                     </li>
                   </ul>
