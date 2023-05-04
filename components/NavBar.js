@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
-
+// casesensitive?
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
