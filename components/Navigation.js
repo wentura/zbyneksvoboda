@@ -10,7 +10,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="navbar w-full sticky top-0 z-10 bg-white">
+    <div className="navbar w-full sticky top-0 bg-white">
       <div className="px-4 py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
           <Link
@@ -93,7 +93,7 @@ export default function Navbar() {
           <div className="lg:hidden">
             <button
               type="button"
-              className="p-4 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50 z-10 bg-white"
+              className="p-4 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50 z-50 bg-white"
               onClick={toggleMenu}
             >
               <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -114,7 +114,7 @@ export default function Navbar() {
             <nav
               className={`${
                 isOpen ? "block" : "hidden"
-              } absolute top-12 left-0 right-0 px-0 pt-0 pb-4 z-20`}
+              } absolute top-0 left-0 right-0 px-0 pt-0 pb-4 z-50 zNavi`}
             >
               <div className="px-1 py-2 bg-white border rounded shadow-sm">
                 <div className="flex items-center justify-between mb-4">
@@ -137,6 +137,17 @@ export default function Navbar() {
                 </div>
                 <nav className="text-center pb-8">
                   <ul className="space-y-4">
+                    <Link
+                      href="/"
+                      onClick={toggleMenu}
+                      aria-label="Zbyněk SVOBODA"
+                      title="Zbyněk SVOBODA"
+                      className="inline-flex items-center"
+                    >
+                      <span className="ml-2 text-xl font-bold tracking-wide text-gray-800">
+                        Zbyněk SVOBODA
+                      </span>
+                    </Link>
                     <li>
                       <Link
                         onClick={toggleMenu}

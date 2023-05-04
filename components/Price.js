@@ -2,7 +2,7 @@ import Link from "next/link";
 export default function Price() {
   return (
     <div
-      className="w-full my-20 bg-slate-100 shadow-xl py-20 scroll-mt-32	"
+      className="w-full my-20 bg-slate-100 shadow-xl py-20 -scroll-mt-2 md:scroll-mt-2	"
       id="cenik"
     >
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">

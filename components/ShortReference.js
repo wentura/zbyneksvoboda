@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function ShortReference() {
   return (
     <div
-      className="w-full my-20 bg-slate-100 shadow-xl py-20  scroll-mt-32"
+      className="w-full my-20 bg-slate-100 shadow-xl py-20  scroll-mt-12"
       id="reference"
     >
       <div className="px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-12 lg:px-4 lg:py-20">

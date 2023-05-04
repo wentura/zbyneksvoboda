@@ -22,15 +22,15 @@ h6 {
   font-family: "Yeseva One" !important;
 }
 .navbar {
-  z-index: 2 !important;
+  z-index: 30 !important;
 }
 .scroll-element {
-  /* overflow: hidden; */
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   transform: translate3d(0, 0, 0);
-  /* z-index: -1 !important; */
+  z-index: -1 !important;
 }
 
 .scroll-element img {
@@ -48,13 +48,5 @@ h6 {
   }
   100% {
     transform: translate3d(0, -4100px, 0); /* The image width */
-  }
-}
-
-@media (max-width: 640px) {
-  .bg-webdev {
-    background-image: url("/img/webdev.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
