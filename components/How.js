@@ -48,7 +48,7 @@ export default function How() {
               <div className="pt-1 pb-8">
                 <h4 className="mb-2 text-lg font-bold">Dobrý den</h4>
                 <p className="text-gray-700">
-                  První kontakt a pochopení záměru.
+                  Představení záměru, myšleny a cíle projektu.
                 </p>
               </div>
             </div>
@@ -122,8 +122,8 @@ export default function How() {
               <div className="pt-1 pb-8">
                 <h4 className="mb-2 text-lg font-bold">Fáze 1</h4>
                 <p className="text-gray-700">
-                  Projekt rozdělím na menší logické části, které Vám popíšu,
-                  odsouhlasíme si rozsah a dohodneme výslednou cenu.
+                  Rozdělení projektu na menší logické části, odsouhlasení řešení
+                  i rozsahu prací a následná shoda nad výslednou cenou.
                 </p>
               </div>
             </div>
@@ -160,7 +160,7 @@ export default function How() {
               <div className="pt-1 pb-8">
                 <h4 className="mb-2 text-lg font-bold">Fáze 2</h4>
                 <p className="text-gray-700">
-                  Práce na projektu a informování o průběhu.
+                  Samotná práce na projektu a informování o průběhu.
                 </p>
               </div>
             </div>
@@ -197,9 +197,9 @@ export default function How() {
               <div className="pt-1 pb-8">
                 <h4 className="mb-2 text-lg font-bold">Ladění</h4>
                 <p className="text-gray-700">
-                  Testování a ladění projektu na pracovní doméně. Společně si
-                  projdeme celý projekt a najdeme detaily se kterými nejste v
-                  pohodě, které následně upravím.
+                  Finální testování a ladění projektu na pracovní doméně.
+                  Společně si projdeme celý projekt a najdeme mušky, které
+                  následně vychytám.
                 </p>
               </div>
             </div>

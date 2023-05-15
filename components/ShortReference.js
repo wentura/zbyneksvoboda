@@ -13,20 +13,18 @@ export default function ShortReference() {
         </div>
         <div className="max-w-4xl mx-auto lg:max-w-screen-xl flex flex-wrap  justify-between my-4 py-4 md:py-12">
           <div className="h-full w-full md:w-2/3 mx-auto md:mx-0 px-2 lg:px-8">
-            <h3 className="mb-6 font-sans text-xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none text-center lg:pt-12">
+            <h3 className="mb-6 font-sans text-xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none text-center lg:pt-12 pb-3 border-b-2">
               Harasov.eu
             </h3>
             <p className="text-base text-gray-900 pb-4">
-              Webová prezentace pro Harasov, který nabízí nadstandardní služby
-              jak v ubytování, tak i v restauraterství.
-              <br />S panem Kamilem připravujeme další webové stánky pro jeho
-              rozmanité aktivity.
+              Webová prezentace resortu Harasov.
             </p>
             <ul className="ps-2 md:ps-12 text-base text-gray-900 pb-4">
               <li>Statická webová stránka</li>
-              <li>Plně responzivní</li>
+              <li>Plně responzivní design dobře vypadající na mobilu.</li>
+              <li>Editovatelný jídelní lístek</li>
               <li>
-                Grafika od{" "}
+                Grafický návrh od{" "}
                 <a
                   href="http://mowshe.cz/"
                   target="_blank"
@@ -35,8 +33,12 @@ export default function ShortReference() {
                   mowshe.cz
                 </a>
               </li>
-              <li>Funkce editovatelného jídelního lístku</li>
             </ul>
+            <p className="text-base text-gray-900 pb-4">
+              S panem Kamilem připravujeme další webové stánky pro jeho
+              rozmanité aktivity. (taboristeusplavku.cz atd.)
+            </p>
+
             <p className="text-base text-gray-900 pb-8">
               <a
                 href="http://www.harasov.eu"
@@ -59,17 +61,17 @@ export default function ShortReference() {
         </div>
         <div className="max-w-4xl mx-auto lg:max-w-screen-xl flex flex-wrap  justify-between my-4 py-4 md:py-12 md:flex-row-reverse">
           <div className="h-full w-full md:w-2/3 mx-auto md:mx-0 px-2 lg:px-8">
-            <h3 className="mb-6 font-sans text-xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none text-center lg:pt-12">
+            <h3 className="mb-6 font-sans text-xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none text-center lg:pt-12 pb-3 border-b-2">
               Hexfit.eu{" "}
             </h3>
             <p className="text-base text-gray-900 pb-4">
-              Odlehčení a zjednodušení celé Shoptet šablony, aby vyhovovala
-              klientce a jejímu záměru. Předlohou byl zahraniční e-shop s
-              podobnou tématikou.
+              Předlohou byl zahraniční e-shop s podobným zaměřením.
             </p>
             <ul className="ps-2 md:ps-12 text-base text-gray-900 pb-4">
-              <li>Upravená Shoptet šablona</li>
-              <li>Skrývání částí webu, aby jsem celek odlehčil.</li>
+              <li>Úprava Shoptet šablony.</li>
+              <li>
+                Skrývání částí Shoptetu, aby se celeková podoba odlehčila.
+              </li>
             </ul>
             <p className="text-base text-gray-900 pb-8">
               <a
@@ -93,13 +95,37 @@ export default function ShortReference() {
         </div>{" "}
         <div className="max-w-4xl mx-auto lg:max-w-screen-xl flex flex-wrap  justify-between my-4 py-4 md:py-12">
           <div className="h-full w-full md:w-2/3 mx-auto md:mx-0 px-2 lg:px-8">
-            <h3 className="mb-6 font-sans text-xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none text-center lg:pt-12">
-              AntonieEmma.cz
+            <h3 className="mb-6 font-sans text-xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none text-center lg:pt-12  pb-3 border-b-2">
+              Faberpoint.eu
             </h3>
             <p className="text-base text-gray-900 pb-4">
-              E-shop českého výrobce dětských pohybových hraček.
+              Pro e-shop{" "}
+              <a
+                href="https://www.antonieemma.cz/"
+                target="_blank"
+                className="underline underline-offset-2 decoration-1 decoration-gray-400"
+              >
+                AntonieEmma.cz
+              </a>{" "}
+              (českého výrobce dětských pohybových hraček) jsem vyrobil webovoou
+              aplikaci, která pomáhá majitelům stavebnice Faber se
+              &quot;skladem&quot; a pomáhá se stavbou dalších prolézaček.
               <br />
-              Doprovodný projekt{" "}
+            </p>
+            <ul className="ps-2 md:ps-12 text-base text-gray-900 pb-4">
+              <li>Návrh a kompletní realizace aplikace.</li>
+              <li>Postaveno pomocí PHP a databáze MariaDB</li>
+              <li>
+                Registrace uživatele, editace &quot;skladu&quot; každého
+                uživatele.
+              </li>
+              <li>Přepočítávání finální ceny staveb podle skladu uživatele</li>
+              <li>
+                Přidání všech chybějících dílů stavebnice Faber do košíku
+                e-shopu.
+              </li>
+            </ul>
+            <p className="text-base text-gray-900 pb-8">
               <a
                 href="https://faberpoint.eu/"
                 target="_blank"
@@ -107,32 +133,11 @@ export default function ShortReference() {
               >
                 Faberpoint.eu
               </a>
-              , kde si naklikáte vlastní sklad a vysněné prolézačky.
-              <br />
-              Na jeden klik vše do košíku.
-            </p>
-            <ul className="ps-2 md:ps-12 text-base text-gray-900 pb-4">
-              <li>Úprava Shoptet šablony.</li>
-              <li>
-                Vyladění detailů, zjednodušení a zpřehlednení celého vzhledu
-                e-shopu.
-              </li>
-              <li>Nastavení newsletterů</li>
-              <li>Funkce přidání celého seznamu položek do košíku</li>
-            </ul>
-            <p className="text-base text-gray-900 pb-8">
-              <a
-                href="https://www.antonieemma.cz/"
-                target="_blank"
-                className="underline underline-offset-2 decoration-1 decoration-gray-400"
-              >
-                AntonieEmma.cz{" "}
-              </a>
             </p>
           </div>
           <div className="h-full w-3/4 md:w-1/3 mx-auto	flex justify-center md:rotate-6">
             <Image
-              src="/img/portfolio/ae.png"
+              src="/img/portfolio/faberpoint.jpg"
               alt=""
               width="600"
               height="800"
@@ -142,12 +147,13 @@ export default function ShortReference() {
         </div>
         <div className="max-w-4xl mx-auto lg:max-w-screen-xl flex flex-wrap  justify-between my-4 py-4 md:py-12 md:flex-row-reverse">
           <div className="h-full w-full md:w-2/3 mx-auto md:mx-0 px-2 lg:px-8">
-            <h3 className="mb-6 font-sans text-xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none text-center lg:pt-12">
+            <h3 className="mb-6 font-sans text-xl font-bold tracking-tight text-gray-900 sm:text-2xl sm:leading-none text-center lg:pt-12 pb-3 border-b-2">
               ZodpovědnáVýuka.cz
             </h3>
             <p className="text-base text-gray-900 pb-4">
-              Vyladěný Shoptet, k nepoznání upravená šablona. S paní Kateřinou
-              spolupracuji i na dalších projektech, z posledních je to{" "}
+              K nepoznání upravená šablona Shoptetu.
+              <br />S paní Kateřinou spolupracuji i na dalších projektech, z
+              posledních je to{" "}
               <a
                 href="https://zodpovednyhub.cz/"
                 target="_blank"

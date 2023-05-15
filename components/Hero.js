@@ -23,7 +23,7 @@ export default function Hero() {
             <div className="relative mb-4 lg:mt-16 p-12 md:p-12 lg:p-12 bg-slate-100/70 backdrop-blur-sm  rounded-2xl z-20">
               <div>
                 <p className="inline-block mb-0 text-base font-bold md:font-normal text-gray-900">
-                  konzultant a tvůrce webů
+                  konzultant a tvůrce webů na volné noze
                 </p>
               </div>
               <h2 className="max-w-lg mb-2 text-3xl  text-gray-900 sm:text-5xl sm:leading-none">
@@ -32,8 +32,8 @@ export default function Hero() {
               <h1 className="max-w-lg pb-4 md:pb-20 text-5xl text-gray-900 sm:text-7xl sm:leading-none">
                 SVOBODA
               </h1>
-              <p className="hidden md:flex md:text-base text-gray-700 text-md max-w-xl">
-                Jsem webový vývojář na volné noze.
+              <p className="text-base text-gray-700 max-w-xl">
+                svými weby žiju a za svou prací si stojím.
               </p>
               <Link href="#about_me">
                 <p className="bg-green-300 text-lg w-fit my-4 px-4 py-2 rounded-xl shadow-md mx-auto md:mx-0 text-gray-900 font-extrabold">
