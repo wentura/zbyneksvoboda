@@ -2,6 +2,19 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
+  let prescription = {
+    prescriptionDate: new Date(), // Today
+    prescriptionExpirationDate: 23, // Days to add
+  };
+
+  let date = new Date(
+    new Date(prescription.prescriptionDate).setDate(
+      prescription.prescriptionDate.getDate() +
+        prescription.prescriptionExpirationDate
+    )
+  ).toLocaleDateString("cs-CZ");
+  // let den = date.getMonth;
+
   return (
     <div className="w-full sm:bg-slate-100 shadow-xl">
       <div className="relative flex flex-wrap max-w-full justify-between md:justify-start lg:max-w-screen-xl px-4 md:py-0 mx-auto max-h-96 md:max-h-[700px] overflow-y-hidden ">
@@ -27,6 +40,9 @@ export default function Hero() {
                   Jsem Vám k dispozici
                 </p>
               </Link>
+              <p className="text-sm">
+                {/* Začněme dnes, ale pracovat na Vašem projektu mohu až {date} */}
+              </p>
             </div>
           </div>
         </div>
