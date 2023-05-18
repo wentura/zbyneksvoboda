@@ -87,16 +87,29 @@ export default function About() {
                   , nejsem plátce DPH
                 </span>
               </p>
+              <hr />
+              <p className="flex items-center">
+                <span className="w-5 h-5 mr-2 sm:mr-6">&nbsp;</span>
+                <span>mlýn Kroužek</span>
+              </p>
+              <p className="flex items-center">
+                <span className="w-5 h-5 mr-2 sm:mr-6">&nbsp;</span>
+                <span>Nebužely 3</span>
+              </p>
+              <p className="flex items-center">
+                <span className="w-5 h-5 mr-2 sm:mr-6">&nbsp;</span>
+                <span>Nebužely, 277 34</span>
+              </p>
             </div>
           </div>
         </div>
         <div>
           <Image
-            className="object-cover w-80 h-80 lg:w-[400px] lg:h-[400px] rounded-2xl shadow mx-auto"
-            src="/img/me2maly.jpg"
+            className="object-cover w-64 h-96 lg:w-[600px] lg:h-[800px] rounded-2xl shadow mx-auto"
+            src="/img/me.jpg"
             alt="Hexfit"
-            width={500}
-            height={500}
+            width={600}
+            height={806}
           />
         </div>
       </div>
