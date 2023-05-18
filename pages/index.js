@@ -1,5 +1,4 @@
 import About from "@/components/About";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import How from "@/components/How";
@@ -9,11 +8,10 @@ import Price from "@/components/Price";
 import References from "@/components/References";
 import Services from "@/components/Services";
 import ShortReference from "@/components/ShortReference";
-import Head from "next/head";
+import { useEffect } from "react";
 export default function Home() {
-  function matomo() {
+  useEffect(() => {
     var _paq = (window._paq = window._paq || []);
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
     _paq.push(["trackPageView"]);
     _paq.push(["enableLinkTracking"]);
     (function () {
@@ -27,10 +25,10 @@ export default function Home() {
       g.src = u + "matomo.js";
       s.parentNode.insertBefore(g, s);
     })();
-  }
+  });
+
   return (
     <main className="">
-      <Head>matomo();</Head>
       <Navigation />
       <Hero />
       <Services />
