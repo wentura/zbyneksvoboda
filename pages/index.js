@@ -15,7 +15,7 @@ export default function Home() {
     _paq.push(["trackPageView"]);
     _paq.push(["enableLinkTracking"]);
     (function () {
-      var u = "//matomo.zbyneksvoboda.cz/";
+      var u = "http://matomo.zbyneksvoboda.cz/";
       _paq.push(["setTrackerUrl", u + "matomo.php"]);
       _paq.push(["setSiteId", "1"]);
       var d = document,
