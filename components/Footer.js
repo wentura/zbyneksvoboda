@@ -30,6 +30,12 @@ export default function Footer() {
             </Link>
           </li>
         </ul> */}
+        <img
+          referrerpolicy="no-referrer-when-downgrade"
+          src="http://matomo.zbyneksvoboda.cz/matomo.php?idsite=1&amp;rec=1"
+          className="border-0"
+          alt=""
+        />
       </div>
     </div>
   );
