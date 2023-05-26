@@ -25,7 +25,8 @@ export default function Services() {
             Tvorba webových stránek a aplikací
           </h6>
           <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
-            <span className="p-1 bg-slate-100 shadow-md">
+            <span className="px-2 py-1 bg-slate-100 shadow-md">
+              {" "}
               Rychlé, responzivní
             </span>{" "}
             (dobře vypadající na mobilu) a funční webové stránky, které
@@ -39,7 +40,7 @@ export default function Services() {
           <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
             Optimalizaci výkonu, renovace a modernizace stávajících webových
             stránek, vytvoření{" "}
-            <span className="p-1 bg-slate-100 shadow-md">
+            <span className="px-2 py-1 bg-slate-100 shadow-md">
               moderního designu
             </span>
             , který zaujme zákazníky a posune Vás vpřed.
@@ -51,8 +52,11 @@ export default function Services() {
           </h6>
           <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
             Specializuji se na platformy
-            <span className="p-1 bg-slate-100 shadow-md">shoptet</span> a
-            <span className="p-1 bg-slate-100 shadow-md">woocommerce</span>.
+            <span className="px-2 py-1 bg-slate-100 shadow-md">shoptet</span> a
+            <span className="px-2 py-1 bg-slate-100 shadow-md">
+              woocommerce
+            </span>
+            .
             <br />
             <Link
               href="/#reference"
@@ -67,7 +71,8 @@ export default function Services() {
             Návrh UX / UI
           </h6>
           <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
-            <span className="p-1 bg-slate-100 shadow-md">
+            <span className="px-2 py-1 bg-slate-100 shadow-md">
+              {" "}
               Moderní trendy ve webdesignu
             </span>
             pro Vaše stránky. Pro atraktivní vzhled, snadnou použitelnost a
@@ -82,7 +87,8 @@ export default function Services() {
             Zodpovím otázky tvorby webu, optimalizaci obsahu, zlepšení
             uživatelského rozhraní nebo vylepšením celkového designu Vašich
             stránek?{" "}
-            <span className="p-1 bg-slate-100 shadow-md">
+            <span className="px-2 py-1 bg-slate-100 shadow-md">
+              {" "}
               Rád pomohu najít řešení
             </span>
             .
