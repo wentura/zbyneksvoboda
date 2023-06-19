@@ -17,26 +17,26 @@ export default function Hero() {
 
   return (
     <div className="w-full sm:bg-slate-100 shadow-xl">
-      <div className="relative flex flex-wrap max-w-full justify-between md:justify-start lg:max-w-screen-xl px-4 md:py-0 mx-auto max-h-96 md:max-h-[700px] overflow-y-hidden ">
-        <div className="my-12 lg:max-w-md xl:max-w-lg mx-0 md:mx-4 lg:mx-0 ">
+      <div className="relative flex flex-wrap max-w-full justify-between md:justify-start lg:max-w-screen-2xl px-4 md:py-0 mx-auto max-h-96 md:max-h-[700px] overflow-hidden">
+        <div className="my-12 lg:max-w-xl xl:max-w-2xl mx-0 md:mx-4 lg:mx-0">
           <div className="mx-auto">
-            <div className="relative mb-4 lg:mt-16 p-12 md:p-12 lg:p-12 bg-slate-100/70 backdrop-blur-sm  rounded-2xl z-20">
+            <div className="relative mb-4 lg:mt-16 p-8 bg-slate-100/70 backdrop-blur-sm rounded-2xl z-20">
               <div>
                 <p className="inline-block mb-0 text-base font-bold md:font-normal text-gray-900">
-                  konzultant a tvůrce webů na volné noze
+                  jsem tvůrce webů na volné noze
                 </p>
               </div>
-              <h2 className="max-w-lg mb-2 text-3xl  text-gray-900 sm:text-5xl sm:leading-none">
-                Zbyněk
+              <h2 className="max-w-lg mb-2 text-2xl font-black text-gray-900 sm:text-4xl sm:leading-none">
+                Zbyněk Svoboda
               </h2>
-              <h1 className="max-w-lg pb-4 md:pb-20 text-5xl text-gray-900 sm:text-7xl sm:leading-none">
-                SVOBODA
+              <h1 className="max-w-xl py-4 md:pb-20 text-5xl font-extrabold text-gray-900 sm:text-7xl sm:leading-none uppercase">
+                tvořím weby
               </h1>
               <p className="text-base text-gray-700 max-w-xl">
                 svými weby žiju a za svou prací si stojím.
               </p>
               <Link href="#about_me">
-                <p className="bg-green-300 text-lg w-fit my-4 px-4 py-2 rounded-xl shadow-md mx-auto md:mx-0 text-gray-900 font-extrabold">
+                <p className="bg-green-300 text-lg w-fit my-4 px-4 py-2 rounded-xl shadow-md mx-auto md:mx-0 text-gray-900 font-extrabold zs-shadow">
                   Jsem Vám k dispozici
                 </p>
               </Link>
@@ -46,53 +46,53 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="flex mr-0 lg:ml-0 justify-center w-full md:w-1/2 rotate-6 mt-[-1200px] md:mt-[-800px] overflow-hidden">
+        <div className="flex mr-0 lg:ml-0 justify-center w-full md:w-1/2 rotate-6 mt-[-1200px] md:mt-[-800px] overflow-x-hidden">
           <div className="scroll-parent flex ">
             <div className="scroll-element">
               <Image
-                src="/img/portfolio/hara.jpg"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532482/zbyneksvoboda/portfolio/hara_hif9go.webp"
                 alt=""
                 width="600"
                 height="800"
                 className="w-[600px] lg:h-[800px]"
               />
               <Image
-                src="/img/portfolio/hexfit.png"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532480/zbyneksvoboda/portfolio/hexfit_t80dxv.png"
                 alt=""
                 width="600"
                 height="800"
                 className="w-[600px] lh-[800px]"
               />
               <Image
-                src="/img/portfolio/koko.png"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532480/zbyneksvoboda/portfolio/koko_v8yq1r.png"
                 alt=""
                 width="600"
                 height="800"
                 className="w-[600px] lh-[800px]"
               />
               <Image
-                src="/img/portfolio/zoe.png"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532485/zbyneksvoboda/portfolio/zoe_ljgo8f.webp"
                 alt=""
                 width="600"
                 height="800"
                 className="w-[600px] lh-[800px]"
               />
               <Image
-                src="/img/portfolio/zv.jpg"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532484/zbyneksvoboda/portfolio/zodpovednavyuka_gntjx2.webp"
                 alt=""
                 width="600"
                 height="800"
                 className="w-[600px] lh-[800px]"
               />
               <Image
-                src="/img/portfolio/doom.png"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532474/zbyneksvoboda/portfolio/doom_fgikav.webp"
                 alt=""
                 width="600"
                 height="800"
                 className="w-[600px] lh-[800px]"
               />
               <Image
-                src="/img/portfolio/ae.png"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532474/zbyneksvoboda/portfolio/ae_dcvvpa.webp"
                 alt=""
                 width="600"
                 height="800"

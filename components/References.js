@@ -14,8 +14,8 @@ export default function References() {
       <div className="grid gap-16 mx-auto sm:grid-cols-1 lg:grid-cols-2 lg:max-w-screen-lg">
         <div>
           <Image
-            className="object-cover w-24 h-24 rounded-full shadow mx-auto"
-            src="/img/ref/frankova.jpg"
+            className="object-cover w-24 h-24 rounded-full shadow-xl mx-auto"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532509/zbyneksvoboda/ref/frankova_aegcwj.webp"
             alt="Hexfit"
             width={300}
             height={300}
@@ -37,8 +37,8 @@ export default function References() {
         </div>
         <div>
           <Image
-            className="object-cover w-24 h-24 rounded-full shadow mx-auto"
-            src="/img/ref/3.jpg"
+            className="object-cover w-24 h-24 rounded-full shadow-xl mx-auto"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532509/zbyneksvoboda/ref/3_itfy9q.webp"
             alt="Kolem Krku"
             width={300}
             height={300}
@@ -59,8 +59,8 @@ export default function References() {
         </div>
         <div>
           <Image
-            className="object-cover w-24 h-24 rounded-full shadow mx-auto invert"
-            src="/img/logos/doom.png"
+            className="object-cover w-24 h-24 rounded-full shadow-xl mx-auto invert"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532414/zbyneksvoboda/logos/doom_gdkhes.webp"
             alt="Hexfit"
             width={300}
             height={300}
@@ -75,9 +75,9 @@ export default function References() {
         </div>
         <div>
           <Image
-            className="object-cover w-24 h-24 rounded-full shadow mx-auto"
-            src="/img/ref/stepan_maly.jpg"
-            alt="Hexfit"
+            className="object-cover w-24 h-24 rounded-full shadow-xl mx-auto"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532509/zbyneksvoboda/ref/stepan_maly_cfcxvj.webp"
+            alt="AntonieEmma"
             width={300}
             height={300}
           />

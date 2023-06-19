@@ -105,8 +105,8 @@ export default function About() {
         </div>
         <div>
           <Image
-            className="object-cover w-64 h-96 lg:w-[600px] lg:h-[800px] rounded-2xl shadow mx-auto"
-            src="/img/me.jpg"
+            className="object-cover w-64 h-96 lg:w-[600px] lg:h-[800px] rounded-2xl shadow-2xl mx-auto"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532355/zbyneksvoboda/me_smhw9x.webp"
             alt="Hexfit"
             width={600}
             height={806}

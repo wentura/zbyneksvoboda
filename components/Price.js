@@ -18,7 +18,7 @@ export default function Price() {
           </p>
         </div>
         <div className="grid max-w-md gap-10 row-gap-5 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
-          <div className="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
+          <div className="flex flex-col justify-between p-8 bg-white border rounded-2xl sm:items-center shadow-xl">
             <div className="text-center">
               <div className="">základ</div>
               <div className="flex items-center justify-center mt-2">
@@ -38,7 +38,7 @@ export default function Price() {
               </div>
             </div>
           </div>
-          <div className="relative flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow border-deep-purple-accent-400">
+          <div className="relative flex flex-col justify-between p-8 bg-white border rounded-2xl sm:items-center shadow-xl">
             <div className="text-center">
               <div>&quot;umí víc&quot;</div>
               <div className="flex items-center justify-center mt-2">
@@ -59,7 +59,7 @@ export default function Price() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
+          <div className="flex flex-col justify-between p-8 bg-white border rounded-2xl sm:items-center shadow-xl">
             <div className="text-center">
               <div className="">&nbsp;</div>
               <div className="flex items-center justify-center mt-2">

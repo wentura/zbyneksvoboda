@@ -278,12 +278,13 @@ export default function How() {
               .
             </div>
             <div className="pt-12">
-              Po dokončení projektu se ho snažím rozvíjet a modernizovat.
+              Po dokončení projektu se jej snažím nad8le rozvíjet a
+              modernizovat.
               <br />S většinou svých klientů udržuji dlouhodobou spolupráci.
             </div>
             <div className="pt-12">
               <Link href="#about_me">
-                <p className="bg-green-300 text-lg w-fit my-4 px-4 py-2 rounded-xl shadow-md mx-auto text-gray-900 font-extrabold">
+                <p className="bg-green-300 text-lg w-fit my-4 px-4 py-2 rounded-xl shadow-md mx-auto text-gray-900 font-extrabold zs-shadow">
                   Pusťme se společně do práce
                 </p>
               </Link>
@@ -291,8 +292,8 @@ export default function How() {
           </div>
           <div className="relative">
             <Image
-              className="inset-0 object-cover object-bottom w-full shadow-lg h-full lg:absolute lg:h-full opacity-75 rounded-2xl"
-              src="/img/webdev.jpg"
+              className="inset-0 object-cover object-bottom w-full shadow-xl h-full lg:absolute lg:h-full opacity-75 rounded-2xl"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532355/zbyneksvoboda/webdev_lmubur.webp"
               alt=""
               width="1280"
               height="720"

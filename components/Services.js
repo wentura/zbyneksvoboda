@@ -97,7 +97,7 @@ export default function Services() {
         <div className="sm:text-center w-full">
           <span className="mb-2 font-semibold leading-5 text-xl md:text-2xl pb-2">
             <Link href="#about_me">
-              <p className="bg-green-300 text-lg w-fit my-4 px-4 py-2 rounded-xl shadow-md mx-auto text-gray-900 font-extrabold">
+              <p className="bg-green-300 text-lg w-fit my-4 px-4 py-2 rounded-xl shadow-md mx-auto text-gray-900 font-extrabold zs-shadow">
                 Začněme spolupráci
               </p>
             </Link>

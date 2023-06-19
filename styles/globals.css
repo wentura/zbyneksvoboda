@@ -50,3 +50,11 @@ h6 {
     transform: translate3d(0, -4100px, 0); /* The image width */
   }
 }
+
+.zs-shadow {
+  box-shadow: 10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+}
+.zs-shadow:hover {
+  transform: translate(3px, -3px);
+}

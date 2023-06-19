@@ -26,7 +26,7 @@ export default function Navbar() {
           <ul className="lg:flex items-center hidden space-x-8">
             <li>
               <Link
-                href="#s_cim_vam_pomohu"
+                href="/#s_cim_vam_pomohu"
                 aria-label="S čím vám pomohu"
                 title="S čím vám pomohu"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -37,7 +37,7 @@ export default function Navbar() {
 
             <li>
               <Link
-                href="#reference"
+                href="/#reference"
                 aria-label="Reference"
                 title="Reference"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -48,7 +48,7 @@ export default function Navbar() {
 
             <li>
               <Link
-                href="#jak_pracuji"
+                href="/#jak_pracuji"
                 aria-label="Spolupráce"
                 title="Spolupráce"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -59,7 +59,7 @@ export default function Navbar() {
 
             <li>
               <Link
-                href="#recenze"
+                href="/#recenze"
                 aria-label="Recenze"
                 title="Recenze"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -70,7 +70,7 @@ export default function Navbar() {
 
             <li>
               <Link
-                href="#cenik"
+                href="/#cenik"
                 aria-label="Ceník"
                 title="Ceník"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -81,7 +81,7 @@ export default function Navbar() {
 
             <li>
               <Link
-                href="#about_me"
+                href="/#about_me"
                 aria-label="Kontakt"
                 title="Kontakt"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -151,7 +151,7 @@ export default function Navbar() {
                     <li>
                       <Link
                         onClick={toggleMenu}
-                        href="#s_cim_vam_pomohu"
+                        href="/#s_cim_vam_pomohu"
                         aria-label="S čím vám pomohu"
                         title="S čím vám pomohu"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -163,7 +163,7 @@ export default function Navbar() {
                     <li>
                       <Link
                         onClick={toggleMenu}
-                        href="#reference"
+                        href="/#reference"
                         aria-label="Reference"
                         title="Reference"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -187,7 +187,7 @@ export default function Navbar() {
                     <li>
                       <Link
                         onClick={toggleMenu}
-                        href="#recenze"
+                        href="/#recenze"
                         aria-label="Recenze"
                         title="Recenze"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -211,7 +211,7 @@ export default function Navbar() {
                     <li>
                       <Link
                         onClick={toggleMenu}
-                        href="#about_me"
+                        href="/#about_me"
                         aria-label="Kontakt"
                         title="Kontakt"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
