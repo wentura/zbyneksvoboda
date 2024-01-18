@@ -22,7 +22,7 @@ export default function Price() {
             <div className="text-center">
               <div className="">základ</div>
               <div className="flex items-center justify-center mt-2">
-                <div className="mr-1 text-5xl font-bold">12.000+</div>
+                <div className="mr-1 text-5xl font-bold">14.000+</div>
                 <div className="text-gray-700">Kč</div>
               </div>
               <div className="mt-2 space-y-3">
@@ -42,7 +42,7 @@ export default function Price() {
             <div className="text-center">
               <div>&quot;umí víc&quot;</div>
               <div className="flex items-center justify-center mt-2">
-                <div className="mr-1 text-5xl font-bold">25.000+</div>
+                <div className="mr-1 text-5xl font-bold">27.000+</div>
                 <div className="text-gray-700">Kč</div>
               </div>
               <div className="mt-2 space-y-3">
@@ -64,7 +64,7 @@ export default function Price() {
               <div className="">&nbsp;</div>
               <div className="flex items-center justify-center mt-2">
                 <div className="text-gray-700">od&nbsp;</div>
-                <div className="mr-1 text-5xl font-bold">800</div>
+                <div className="mr-1 text-5xl font-bold">900</div>
                 <div className="text-gray-700">Kč/h</div>
               </div>
               <div className="mt-2 space-y-3">
