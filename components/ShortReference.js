@@ -42,13 +42,16 @@ export default function ShortReference() {
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-              Hexfit.eu
+              Hexfit.eu <span className="text-xs">(verze 2023)</span>
             </h2>
             <p className="text-base leading-relaxed mt-2">
               Vyladění a odlehčení Shoptet šablony podle přání klientky
               (předlohou je zahraniční e-shop s podobnou tématikou). Přidání
               některých funkcí (upravení zobrazování kategorií, úpravení
               košíku).
+            </p>
+            <p className="text-base leading-relaxed mt-2 flex justify-end w-full">
+              Již neaktuální verze
             </p>
             <ul className="pl-4 mt-4 border-l-2">
               <li>Úprava šablony Samba</li>
@@ -68,7 +71,7 @@ export default function ShortReference() {
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-              Zoe8.eu{" "}
+              Zoe8.eu <span className="text-xs">(verze 2022)</span>
             </h2>
             <p className="text-base leading-relaxed mt-2">
               Úprava šablony s důrazem na vyladění zobrazení detailu produktu.
