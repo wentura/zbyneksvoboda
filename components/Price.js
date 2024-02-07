@@ -12,9 +12,10 @@ export default function Price() {
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
             Přistupuji ke každému klientovi individuálně a s maximálním možným
-            soustředěním na cíl projektu.
+            soustředěním na jeho potřeby a cíle projektu.
             <br />
-            Svými weby žiju a za svou prací si stojím.
+            Svými weby žiju, za svou prací si stojím a svůj odborný názor se
+            nebojím sdělit.
           </p>
         </div>
         <div className="grid max-w-md gap-10 row-gap-5 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">

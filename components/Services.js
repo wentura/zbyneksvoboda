@@ -29,7 +29,7 @@ export default function Services() {
               {" "}
               Rychlé, responzivní
             </span>{" "}
-            (dobře vypadající na mobilu) a funční webové stránky, které
+            (dobře vypadající na mobilu) a funkční webové stránky, které
             majitelům přináší užitek.
           </p>
         </div>

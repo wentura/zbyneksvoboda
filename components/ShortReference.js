@@ -11,8 +11,202 @@ export default function ShortReference() {
           Reference a ukázky prací
         </h2>
       </div>
+
       <div className="container px-5 py-24 mx-auto">
-        {/* header eshopy */}
+        <div className="flex flex-col">
+          <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+            <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">
+              Webové prezentace{" "}
+            </h1>
+            <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
+              Statické webové prezentace založené na moderních designových
+              trendech a nejnovějších technologiích, což zaručuje, že vaše
+              stránky budou vypadat nejen skvěle, ale také se budou rychle
+              načítat a poskytovat optimální uživatelský zážitek.
+              <br />
+              <br />
+              Moje služny zahrnují procesy od návrhu až po spuštění do ostrého provozu.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center">
+          <div className="p-4 xl:w-1/3 sm:pb-12 pb-24">
+            <div className="rounded-lg h-[400px] md:h-[500px]">
+              <Image
+                width={600}
+                height={600}
+                alt="content"
+                className="object-cover object-top h-full w-full shadow-xl"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707305025/zbyneksvoboda/portfolio/freedomarboriculture_m5u8id.webp"
+              />
+            </div>
+            <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
+              Freedomarboriculture.cz
+            </h2>
+            <p className="text-base leading-relaxed mt-2">
+              Webová prezentace odborného arboristického poradenství.
+              Jednoduché, rychlé a plně responzivní webové stránky.
+            </p>
+            <ul className="pl-4 mt-4 border-l-2">
+              <li>Kódování vzhledu</li>
+              <li>Plně responzivní</li>
+              <li>Next.js</li>
+              <li>DNS u Netlify</li>
+              <li>e-mail u profi.seznam</li>
+            </ul>
+            {/* <a className="text-indigo-500 inline-flex items-center mt-3">
+              více o projektu
+              <svg
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                className="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a> */}
+          </div>
+          <div className="p-4 xl:w-1/3 sm:pb-12 pb-24">
+            <div className="rounded-lg h-[400px] md:h-[500px]">
+              <Image
+                width={600}
+                height={600}
+                alt="content"
+                className="object-cover object-top h-full w-full shadow-xl"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532482/zbyneksvoboda/portfolio/hara_hif9go.webp"
+              />
+            </div>
+            <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
+              Harasov.eu
+            </h2>
+            <p className="text-base leading-relaxed mt-2">
+              Webová prezentace letoviska Harasov, podle předlohy{" "}
+              <a
+                href="http://mowshe.cz/"
+                target="_blank"
+                className="underline-offset-4 underline"
+              >
+                mowshe.cz
+              </a>
+              . Obsahuje vše podstatné a přehledně informuje návštěvníky.
+              Editovatelný jídelní lístek je jen pomyslnou třešničkou.
+            </p>
+            <ul className="pl-4 mt-4 border-l-2">
+              <li>Kódování vzhledu</li>
+              <li>Plně responzivní</li>
+              <li>HTML5, CSS3, JS, Bootstrap, PHP</li>
+            </ul>
+            {/* <a className="text-indigo-500 inline-flex items-center mt-3">
+              více o projektu
+              <svg
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                className="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a> */}
+          </div>
+
+          <div className="p-4 xl:w-1/3 sm:pb-12 pb-24">
+            <div className="rounded-lg h-[400px] md:h-[500px]">
+              <Image
+                width={600}
+                height={600}
+                alt="content"
+                className="object-cover object-top h-full w-full shadow-xl"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532480/zbyneksvoboda/portfolio/koko_v8yq1r.png"
+              />
+            </div>
+            <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
+              Kokostezky.cz
+            </h2>
+            <p className="text-base leading-relaxed mt-2">
+              Kompletní redisign webu pro MTB / gravel jezdce v lokalitě
+              Kokořínského údolí. S důrazem na rychlost webu a jeho přehlednost
+              jsme dospěli k podobě, která se stále vylepšuje. Primárním účelem
+              je informovat o uzavírkách trailů a sdílení tras.
+            </p>
+            <ul className="pl-4 mt-4 border-l-2">
+              <li>Kompletní zpracování</li>
+              <li>Plně responzivní</li>
+              <li>HTML5, CSS3, TailwindCss, JS</li>
+            </ul>
+            {/* <a className="text-indigo-500 inline-flex items-center mt-3">
+              více o projektu
+              <svg
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                className="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a> */}
+          </div>
+
+          <div className="p-4 xl:w-1/3 sm:pb-12 pb-24">
+            <div className="rounded-lg h-[400px] md:h-[500px]">
+              <Image
+                width={600}
+                height={600}
+                alt="content"
+                className="object-cover object-top h-full w-full shadow-xl"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532484/zbyneksvoboda/portfolio/zh_zcfi1p.webp"
+              />
+            </div>
+            <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
+              Zodpovědný hub
+            </h2>
+            <p className="text-base leading-relaxed mt-2">
+              Pro nově vzniklý komunitní prostor, showroom e-shopu{" "}
+              <a
+                href="https://www.zodpovednavyuka.cz/"
+                target="_blank"
+                className="underline-offset-4 underline"
+              >
+                ZodpovednaVyuka.cz
+              </a>{" "}
+              a přednáškový prostor jsem vytvořil jednoduchou, plně responzivní
+              a rychlou prezentaci postavenou na moderních technologiích.
+              Některé funkce (automatizace) jsou stále připraveny k nasazení, až
+              se celý projekt více rozběhne.
+            </p>
+            <ul className="pl-4 mt-4 border-l-2">
+              <li>Kompletní zpracování</li>
+              <li>Plně responzivní</li>
+              <li>HTML5, CSS3, TailwindCss, JS, Next.js</li>
+            </ul>
+            {/* <a className="text-indigo-500 inline-flex items-center mt-3">
+              více o projektu
+              <svg
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                className="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a> */}
+          </div>
+        </div>
+      </div>
+
+      {/* header eshopy */}
+      <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col">
           <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
             <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">
@@ -251,163 +445,6 @@ export default function ShortReference() {
                 Jan Bláha, kolem-krku.cz
               </div>
             </div> */}
-            {/* <a className="text-indigo-500 inline-flex items-center mt-3">
-              více o projektu
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a> */}
-          </div>
-        </div>
-      </div>
-
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col">
-          <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-            <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">
-              Webové prezentace{" "}
-            </h1>
-            <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-              Statické webové prezentace založené na moderních designových
-              trendech a nejnovějších technologiích, což zaručuje, že vaše
-              stránky budou vypadat nejen skvěle, ale také se budou rychle
-              načítat a poskytovat optimální uživatelský zážitek.
-              <br />
-              <br />
-              Od návrhu struktury, přes drátové modely (wireframy), návrh textů,
-              návrh grafického designu, uživetelského rozhraní (UI), ladění
-              uživetelské zkušenosti (UX) až po SEO a následné spuštění do
-              ostrého provozu.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-          <div className="p-4 xl:w-1/3 sm:pb-12 pb-24">
-            <div className="rounded-lg h-[400px] md:h-[500px]">
-              <Image
-                width={600}
-                height={600}
-                alt="content"
-                className="object-cover object-top h-full w-full shadow-xl"
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532482/zbyneksvoboda/portfolio/hara_hif9go.webp"
-              />
-            </div>
-            <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-              Harasov.eu
-            </h2>
-            <p className="text-base leading-relaxed mt-2">
-              Webová prezentace letoviska Harasov, podle předlohy{" "}
-              <a
-                href="http://mowshe.cz/"
-                target="_blank"
-                className="underline-offset-4 underline"
-              >
-                mowshe.cz
-              </a>
-              . Obsahuje vše podstavtné a přehledně informuje návštěvníky.
-              Editovatelný jídelní lístek je jen pomyslnou třešničkou.
-            </p>
-            <ul className="pl-4 mt-4 border-l-2">
-              <li>Kódování vzhledu</li>
-              <li>Plně responzivní</li>
-              <li>HTML5, CSS3, JS, Bootstrap, PHP</li>
-            </ul>
-            {/* <a className="text-indigo-500 inline-flex items-center mt-3">
-              více o projektu
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a> */}
-          </div>
-
-          <div className="p-4 xl:w-1/3 sm:pb-12 pb-24">
-            <div className="rounded-lg h-[400px] md:h-[500px]">
-              <Image
-                width={600}
-                height={600}
-                alt="content"
-                className="object-cover object-top h-full w-full shadow-xl"
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532480/zbyneksvoboda/portfolio/koko_v8yq1r.png"
-              />
-            </div>
-            <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-              Kokostezky.cz
-            </h2>
-            <p className="text-base leading-relaxed mt-2">
-              Kompletní redisign webu pro MTG / gravel jezdce v lokalitě
-              Kokořínského údolí. S důrazem na rychlost webu a jeho přehlednost
-              jsme dospěli k podobě, která se stále vylepšuje. Primárním účelem
-              je informovat o uzavírkách trailů a sdílení tras.
-            </p>
-            <ul className="pl-4 mt-4 border-l-2">
-              <li>Kompletní zpracování</li>
-              <li>Plně responzivní</li>
-              <li>HTML5, CSS3, TailwindCss, JS, Next.js</li>
-            </ul>
-            {/* <a className="text-indigo-500 inline-flex items-center mt-3">
-              více o projektu
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a> */}
-          </div>
-
-          <div className="p-4 xl:w-1/3 sm:pb-12 pb-24">
-            <div className="rounded-lg h-[400px] md:h-[500px]">
-              <Image
-                width={600}
-                height={600}
-                alt="content"
-                className="object-cover object-top h-full w-full shadow-xl"
-                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532484/zbyneksvoboda/portfolio/zh_zcfi1p.webp"
-              />
-            </div>
-            <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
-              Zodpovědný hub
-            </h2>
-            <p className="text-base leading-relaxed mt-2">
-              Pro nově vzniklý komunitní prostor, showroom e-shopu{" "}
-              <a
-                href="https://www.zodpovednavyuka.cz/"
-                target="_blank"
-                className="underline-offset-4 underline"
-              >
-                ZodpovednaVyuka.cz
-              </a>{" "}
-              a přednáškový prostor jsem vytvořil jednoduchou, plně responzivní
-              a rychlou prezentaci postavenou na moderních technologiích.
-              Některé funkce (automatizace) jsou stále připraveny k nasazení, až
-              se celý projekt více rozběhne.
-            </p>
-            <ul className="pl-4 mt-4 border-l-2">
-              <li>Kompletní zpracování</li>
-              <li>Plně responzivní</li>
-              <li>HTML5, CSS3, TailwindCss, JS, Next.js</li>
-            </ul>
             {/* <a className="text-indigo-500 inline-flex items-center mt-3">
               více o projektu
               <svg

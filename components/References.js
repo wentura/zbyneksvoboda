@@ -15,6 +15,29 @@ export default function References() {
         <div>
           <Image
             className="object-cover w-24 h-24 rounded-full shadow-xl mx-auto"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707305732/zbyneksvoboda/ref/1529050151541_p9fnil.jpg"
+            alt="Hexfit"
+            width={300}
+            height={300}
+          />
+          <div className="flex flex-col justify-center mt-2">
+            <p className="text-lg font-bold mx-auto">ing. Markéta Svobodová</p>
+            <p className="mb-4 text-xs text-gray-800 mx-auto">
+              Freedomarboriculture.cz
+            </p>
+            <p className="text-sm tracking-wide text-gray-800">
+              Dobrý den Zbyňku,
+              <br />
+              mám na webovku moc pěkné reakce. I od naší omladiny - synů a
+              dcery!
+              <br />A to je opravdu úspěch! :-) <br />
+              Díky moc.
+            </p>
+          </div>
+        </div>
+        <div>
+          <Image
+            className="object-cover w-24 h-24 rounded-full shadow-xl mx-auto"
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532509/zbyneksvoboda/ref/frankova_aegcwj.webp"
             alt="Hexfit"
             width={300}

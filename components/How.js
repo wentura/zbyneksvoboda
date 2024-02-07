@@ -48,7 +48,7 @@ export default function How() {
               <div className="pt-1 pb-8">
                 <h4 className="mb-2 text-lg font-bold">Dobrý den</h4>
                 <p className="text-gray-700">
-                  Představení záměru, myšleny a cíle projektu.
+                  Představení záměru, myšlenky a cíle projektu.
                 </p>
               </div>
             </div>
@@ -85,11 +85,11 @@ export default function How() {
               <div className="pt-1 pb-8">
                 <h4 className="mb-2 text-lg font-bold">Kdo, co, kdy...</h4>
                 <p className="text-gray-700">
-                  Návrh řešení a předběžná kalkulace ceny.
+                  Návrh řešení a předběžná kalkulace doby realizace a ceny.
                 </p>
               </div>
             </div>
-            <div className="flex">
+            {/* <div className="flex">
               <div className="flex flex-col items-center mr-4">
                 <div>
                   <div className="flex items-center justify-center w-10 h-10 border rounded-full">
@@ -123,10 +123,10 @@ export default function How() {
                 <h4 className="mb-2 text-lg font-bold">Fáze 1</h4>
                 <p className="text-gray-700">
                   Rozdělení projektu na menší logické části, odsouhlasení řešení
-                  i rozsahu prací a následná shoda nad výslednou cenou.
+                  i rozsahu prací a následná 
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className="flex">
               <div className="flex flex-col items-center mr-4">
                 <div>
@@ -158,7 +158,7 @@ export default function How() {
                 <div className="w-px h-full bg-gray-300" />
               </div>
               <div className="pt-1 pb-8">
-                <h4 className="mb-2 text-lg font-bold">Fáze 2</h4>
+                <h4 className="mb-2 text-lg font-bold">Tvorba</h4>
                 <p className="text-gray-700">
                   Samotná práce na projektu a informování o průběhu.
                 </p>
@@ -278,7 +278,7 @@ export default function How() {
               .
             </div>
             <div className="pt-12">
-              Po dokončení projektu se jej snažím nad8le rozvíjet a
+              Po dokončení projektu se jej snažím nadále rozvíjet a
               modernizovat.
               <br />S většinou svých klientů udržuji dlouhodobou spolupráci.
             </div>

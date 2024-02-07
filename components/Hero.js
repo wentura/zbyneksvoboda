@@ -57,46 +57,53 @@ export default function Hero() {
                 className="w-[600px] lg:h-[800px]"
               />
               <Image
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707305025/zbyneksvoboda/portfolio/freedomarboriculture_m5u8id.webp"
+                alt=""
+                width="600"
+                height="600"
+                className="w-[600px] h-[600px]"
+              />
+              {/* <Image
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532480/zbyneksvoboda/portfolio/hexfit_t80dxv.png"
                 alt=""
                 width="600"
                 height="800"
                 className="w-[600px] lh-[800px]"
-              />
+              /> */}
               <Image
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532480/zbyneksvoboda/portfolio/koko_v8yq1r.png"
                 alt=""
                 width="600"
                 height="800"
-                className="w-[600px] lh-[800px]"
+                className="w-[600px] h-[800px]"
               />
               <Image
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532485/zbyneksvoboda/portfolio/zoe_ljgo8f.webp"
                 alt=""
                 width="600"
                 height="800"
-                className="w-[600px] lh-[800px]"
+                className="w-[600px] h-[800px]"
               />
               <Image
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532484/zbyneksvoboda/portfolio/zodpovednavyuka_gntjx2.webp"
                 alt=""
                 width="600"
                 height="800"
-                className="w-[600px] lh-[800px]"
+                className="w-[600px] h-[800px]"
               />
               <Image
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532474/zbyneksvoboda/portfolio/doom_fgikav.webp"
                 alt=""
                 width="600"
                 height="800"
-                className="w-[600px] lh-[800px]"
+                className="w-[600px] h-[800px]"
               />
               <Image
                 src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1685532474/zbyneksvoboda/portfolio/ae_dcvvpa.webp"
                 alt=""
                 width="600"
                 height="800"
-                className="w-[600px] lh-[800px]"
+                className="w-[600px] h-[800px]"
               />
             </div>
           </div>
