@@ -25,11 +25,56 @@ export default function ShortReference() {
               načítat a poskytovat optimální uživatelský zážitek.
               <br />
               <br />
-              Moje služny zahrnují procesy od návrhu až po spuštění do ostrého provozu.
+              Moje služny zahrnují procesy od návrhu až po spuštění do ostrého
+              provozu.
             </p>
           </div>
         </div>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 justify-center">
+          <div className="p-4 xl:w-1/3 sm:pb-12 pb-24">
+            <div className="rounded-lg h-[400px] md:h-[500px]">
+              <video
+                autoPlay
+                controls
+                width={600}
+                height={600}
+                alt="content"
+                className="object-cover object-top h-full w-full shadow-xl"
+                preload="auto"
+                src="/autokempkokorin.mp4"
+                loop
+                playsInline
+                poster="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707475175/zbyneksvoboda/portfolio/autokempkokorin_fl48br.webp"
+              >
+                <source src="/autokempkokorin.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
+              AutokempKokorin.cz{" "}
+            </h2>
+            <p className="text-base leading-relaxed mt-2">
+              Web pro autokemp Kokořín. Plně responzivní, přehledné a rychlé
+              webové stránky.
+            </p>
+            <ul className="pl-4 mt-4 border-l-2">
+              <li>Tailwind, Next.js</li>
+            </ul>
+            {/* <a className="text-indigo-500 inline-flex items-center mt-3">
+              více o projektu
+              <svg
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                className="w-4 h-4 ml-2"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a> */}
+          </div>
+
           <div className="p-4 xl:w-1/3 sm:pb-12 pb-24">
             <div className="rounded-lg h-[400px] md:h-[500px]">
               <Image
