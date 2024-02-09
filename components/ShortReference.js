@@ -43,6 +43,7 @@ export default function ShortReference() {
                 preload="auto"
                 src="/autokempkokorin.mp4"
                 loop
+                muted
                 playsInline
                 poster="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707475175/zbyneksvoboda/portfolio/autokempkokorin_fl48br.webp"
               >
