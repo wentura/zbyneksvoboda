@@ -34,19 +34,6 @@ export default function Services() {
           </p>
         </div>
         <div className="sm:text-center w-full">
-          <h6 className="mb-2 font-semibold leading-5  text-xl md:text-2xl pb-2">
-            Úprava stávajících řešení
-          </h6>
-          <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
-            Optimalizaci výkonu, renovace a modernizace stávajících webových
-            stránek, vytvoření{" "}
-            <span className="px-2 py-1 bg-slate-100 shadow-md">
-              moderního designu
-            </span>
-            , který zaujme zákazníky a posune Vás vpřed.
-          </p>
-        </div>
-        <div className="sm:text-center w-full">
           <h6 className="mb-2 font-semibold leading-5 text-xl md:text-2xl pb-2">
             Tvorba a vyladění e-shopů
           </h6>
@@ -79,6 +66,20 @@ export default function Services() {
             plnění cílů.
           </p>
         </div>
+        <div className="sm:text-center w-full">
+          <h6 className="mb-2 font-semibold leading-5  text-xl md:text-2xl pb-2">
+            Úprava stávajících řešení
+          </h6>
+          <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
+            Optimalizaci výkonu, renovace a modernizace stávajících webových
+            stránek, vytvoření{" "}
+            <span className="px-2 py-1 bg-slate-100 shadow-md">
+              moderního designu
+            </span>
+            , který zaujme zákazníky a posune Vás vpřed.
+          </p>
+        </div>
+
         <div className="sm:text-center w-full">
           <h6 className="mb-2 font-semibold leading-5 text-xl md:text-2xl pb-2">
             Konzultace
