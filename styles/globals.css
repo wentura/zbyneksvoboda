@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Yeseva+One&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Yeseva+One&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* 
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Yeseva One', cursive; 
@@ -10,17 +13,22 @@ html {
   scroll-behavior: smooth !important;
 }
 body {
-  font-family: "Josefin Sans" !important;
-  font-weight: 300 !important;
+  /* font-family: "Josefin Sans" !important; */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 400 !important; */
+  font-style: normal;
 }
-/* h1,
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Yeseva One" !important;
-} */
+  font-family: "Anton", sans-serif !important;
+  font-weight: 600;
+  font-style: normal;
+}
 .navbar {
   z-index: 30 !important;
 }
