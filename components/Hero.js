@@ -27,10 +27,10 @@ export default function Hero() {
               <h2 className="max-w-lg mb-2 text-2xl font-black text-gray-900 sm:text-4xl sm:leading-none">
                 Zbyněk Svoboda
               </h2> */}
-              <div className="max-w-xl pt-12 md:pb-20 text-5xl font-extrabold text-gray-900 sm:text-7xl sm:leading-none uppercase">
+              <h1 className="max-w-xl pt-12 md:pb-20 text-5xl font-extrabold text-gray-900 sm:text-7xl sm:leading-none uppercase">
                 tvůrce webů a <br className="block md:hidden" />
                 webových aplikací
-              </div>
+              </h1>
 
               {/* <Link href="#about_me">
                 <p className="bg-green-300 text-lg w-fit mb-8 px-4 py-2 rounded-xl shadow-md mx-auto md:mx-0 text-gray-900 font-extrabold zs-shadow">

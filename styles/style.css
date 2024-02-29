@@ -1,0 +1,68 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300&family=Yeseva+One&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Montserrat&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap'); */
+
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Yeseva One', cursive; 
+*/
+html {
+  scroll-behavior: smooth !important;
+}
+body {
+  /* font-family: "Josefin Sans" !important; */
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 400 !important; */
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Anta", sans-serif !important;
+  font-optical-sizing: auto;
+  /* line-height: 5rem !important; */
+  /* font-stretch: ultra-expanded !important; */
+  font-weight: 600;
+  font-style: normal;
+}
+.navbar {
+  z-index: 30 !important;
+}
+.scroll-element {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  transform: translate3d(0, 0, 0);
+  z-index: -1 !important;
+}
+
+.scroll-element img {
+  /* height: 600px !important; */
+  /* width: 400px !important; */
+  padding-top: 30px;
+  transform: translate3d(0, 0, 0);
+  animation: slide 240s linear infinite alternate;
+  /* z-index: -1 !important; */
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 850px, 0);
+  }
+  100% {
+    transform: translate3d(0, -4100px, 0); /* The image width */
+  }
+}
+
+.zs-shadow {
+  box-shadow: 10px 10px 30px #bebebe, -10px -10px 30px #ffffff;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+}
+.zs-shadow:hover {
+  transform: translate(3px, -3px);
+}
