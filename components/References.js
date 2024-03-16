@@ -21,7 +21,7 @@ export default function References() {
             height={300}
           />
           <div className="flex flex-col justify-center mt-2">
-            <p className="text-lg font-bold mx-auto">ing. Markéta Svobodová</p>
+            <p className="text-lg font-bold mx-auto">Markéta Svobodová</p>
             <p className="mb-4 text-xs text-gray-800 mx-auto">
               Freedomarboriculture.cz
             </p>
