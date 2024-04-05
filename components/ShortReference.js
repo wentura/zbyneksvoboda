@@ -60,22 +60,29 @@ export default function ShortReference() {
             <ul className="pl-4 mt-4 border-l-2">
               <li>Tailwind, Next.js</li>
             </ul>
-            {/* <a className="text-indigo-500 inline-flex items-center mt-3">
-              více o projektu
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a> */}
           </div>
-
+          <div className="p-4 xl:w-1/3 sm:pb-12 pb-24">
+            <div className="rounded-lg h-[400px] md:h-[500px]">
+              <Image
+                width={600}
+                height={600}
+                alt="content"
+                className="object-cover object-top h-full w-full shadow-xl"
+                src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1712343310/zbyneksvoboda/portfolio/pukralupy.webp"
+              />
+            </div>
+            <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
+              PohrebniUstavKralupy.cz
+            </h2>
+            <p className="text-base leading-relaxed mt-2">
+              Návrh a realizace na základě přání klientky.
+            </p>
+            <ul className="pl-4 mt-4 border-l-2">
+              <li>Plně responzivní</li>
+              <li>Next.js</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </div>
           <div className="p-4 xl:w-1/3 sm:pb-12 pb-24">
             <div className="rounded-lg h-[400px] md:h-[500px]">
               <Image
@@ -100,20 +107,6 @@ export default function ShortReference() {
               <li>DNS u Netlify</li>
               <li>e-mail u profi.seznam</li>
             </ul>
-            {/* <a className="text-indigo-500 inline-flex items-center mt-3">
-              více o projektu
-              <svg
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-4 h-4 ml-2"
-                viewBox="0 0 24 24"
-              >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a> */}
           </div>
           <div className="p-4 xl:w-1/3 sm:pb-12 pb-24">
             <div className="rounded-lg h-[400px] md:h-[500px]">
