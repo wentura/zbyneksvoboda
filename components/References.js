@@ -15,8 +15,31 @@ export default function References() {
         <div>
           <Image
             className="object-cover w-24 h-24 rounded-full shadow-xl mx-auto"
+            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1713202744/zbyneksvoboda/ref/pukralupy-img.webp"
+            alt="Pohřební ústav Kralupy"
+            width={300}
+            height={300}
+          />
+          <div className="flex flex-col justify-center mt-2">
+            <p className="text-lg font-bold mx-auto">Natalie Štípková</p>
+            <p className="mb-4 text-xs text-gray-800 mx-auto">
+              PohrebniustavKralupy.cz
+            </p>
+            <p className="text-sm tracking-wide text-gray-800">
+              Velmi děkujeme.
+              <br />
+              Webovky jsou za nás povedené, pěkně zpracované.
+              <br />
+              Hlavně děkujeme za velmi vstřícný přístup, flexibilitu a hlavně za
+              pevné nervy.
+            </p>
+          </div>
+        </div>
+        <div>
+          <Image
+            className="object-cover w-24 h-24 rounded-full shadow-xl mx-auto"
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1707305732/zbyneksvoboda/ref/1529050151541_p9fnil.jpg"
-            alt="Hexfit"
+            alt="Freedomarboriculture.cz"
             width={300}
             height={300}
           />

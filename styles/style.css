@@ -11,7 +11,7 @@ html {
 }
 body {
   /* font-family: "Josefin Sans" !important; */
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   font-optical-sizing: auto;
   /* font-weight: 400 !important; */
   font-style: normal;
