@@ -21,17 +21,31 @@ export default function References() {
             height={300}
           />
           <div className="flex flex-col justify-center mt-2">
-            <p className="text-lg font-bold mx-auto">Natalie Štípková</p>
+            <p className="text-lg font-bold mx-auto text-center">
+              Natalie Štípková
+              <br />
+              Gita Cibulková
+            </p>
             <p className="mb-4 text-xs text-gray-800 mx-auto">
               PohrebniustavKralupy.cz
             </p>
             <p className="text-sm tracking-wide text-gray-800">
-              Velmi děkujeme.
+              Jsme velmi spokojeni s prací pana Zbyňka Svobody, který pracoval
+              na našich webových stránkách.
               <br />
-              Webovky jsou za nás povedené, pěkně zpracované.
-              <br />
-              Hlavně děkujeme za velmi vstřícný přístup, flexibilitu a hlavně za
-              pevné nervy.
+              Jeho profesionální přístup a znalosti v oblasti webdesignu nás
+              nadchly.
+            </p>
+            <p className="text-sm tracking-wide text-gray-800 pt-2">
+              Stránky, které pro nás vytvořil, jsou nejen vizuálně atraktivní,
+              ale také velmi přehledné a snadno použitelné. Zbyněk nám poskytl
+              cenné rady ohledně rozmístění obsahu a navigace, což nám pomohlo
+              při budování efektivního online prostoru pro kontakt s našimi
+              klienty.
+            </p>
+            <p className="text-sm tracking-wide text-gray-800 pt-2">
+              Celkově jsme s jeho tvorbou více než spokojeni a bez váhání mu
+              udělujeme hodnocení pěti hvězdiček. Děkujeme!
             </p>
           </div>
         </div>
