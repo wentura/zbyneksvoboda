@@ -10,11 +10,12 @@ export default function Services() {
         <h2 className="max-w-lg mb-6 font-sans text-2xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:text-5xl md:mx-auto text-center">
           S čím Vám pomohu
         </h2>
-        <p className="text-base text-gray-900 md:text-lg">
+        <p className="text-base text-gray-900 md:text-xl">
           Tvořím{" "}
           <span className="font-bold">
             moderní, úspěšné a funkční weby, e-shopy a aplikace.
-          </span>{" "}
+          </span>
+          <br />
           Použitím nejmodernějších technologií a s individuálním přístupem
           dodávám řešení přímo na míru.
         </p>
@@ -29,14 +30,17 @@ export default function Services() {
               {" "}
               Rychlé, responzivní
             </span>{" "}
-            (dobře vypadající na mobilu) a funkční webové stránky, které
-            majitelům přináší užitek.
+            a funkční webové stránky. S důrazem na cíle a použitelnost.
           </p>
         </div>
         <div className="sm:text-center w-full">
           <h6 className="mb-2 font-semibold leading-5 text-xl md:text-2xl pb-2">
             Tvorba a vyladění e-shopů
           </h6>
+          <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
+            Zaujmout a nenásilnou formou z návštěvníka udělat věrného zákazníka.
+            To je můj cíl.
+          </p>
           <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
             Specializuji se na platformy
             <span className="px-2 py-1 bg-slate-100 shadow-md">shoptet</span> a
@@ -66,35 +70,7 @@ export default function Services() {
             plnění cílů.
           </p>
         </div>
-        <div className="sm:text-center w-full">
-          <h6 className="mb-2 font-semibold leading-5  text-xl md:text-2xl pb-2">
-            Úprava stávajících řešení
-          </h6>
-          <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
-            Optimalizaci výkonu, renovace a modernizace stávajících webových
-            stránek, vytvoření{" "}
-            <span className="px-2 py-1 bg-slate-100 shadow-md">
-              moderního designu
-            </span>
-            , který zaujme zákazníky a posune Vás vpřed.
-          </p>
-        </div>
 
-        <div className="sm:text-center w-full">
-          <h6 className="mb-2 font-semibold leading-5 text-xl md:text-2xl pb-2">
-            Konzultace
-          </h6>
-          <p className="max-w-md mb-3 text-gray-900 sm:mx-auto">
-            Zodpovím otázky tvorby webu, optimalizaci obsahu, zlepšení
-            uživatelského rozhraní nebo vylepšením celkového designu Vašich
-            stránek?{" "}
-            <span className="px-2 py-1 bg-slate-100 shadow-md">
-              {" "}
-              Rád pomohu najít řešení
-            </span>
-            .
-          </p>
-        </div>
         <div className="sm:text-center w-full">
           <span className="mb-2 font-semibold leading-5 text-xl md:text-2xl pb-2">
             <Link href="#about_me">

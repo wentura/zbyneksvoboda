@@ -19,10 +19,10 @@ export default function ShortReference() {
               Webové prezentace{" "}
             </h1>
             <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-              Statické webové prezentace založené na moderních designových
-              trendech a nejnovějších technologiích, což zaručuje, že vaše
-              stránky budou vypadat nejen skvěle, ale také se budou rychle
-              načítat a poskytovat optimální uživatelský zážitek.
+              Webové prezentace založené na moderních designových trendech a
+              nejnovějších technologiích, což zaručuje, že vaše stránky budou
+              vypadat nejen skvěle, ale také se budou rychle načítat a
+              poskytovat optimální uživatelský zážitek.
               <br />
               <br />
               Moje služny zahrnují procesy od návrhu až po spuštění do ostrého
@@ -509,9 +509,8 @@ export default function ShortReference() {
               Webové aplikace a skripty
             </h1>
             <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-              Postavit řešení na &quot;zelené louce&quot; je výzva, které se
-              nazaleknu a celý proces od návrhu až po spuštění výsledného
-              projektu si užívám.
+              Postavit řešení na &quot;zelené louce&quot; je výzva, kterou mám
+              velmi rád. Od prvotního návrhu, až po spuštění do ostrého provozu.
             </p>
           </div>
         </div>

@@ -46,9 +46,10 @@ export default function How() {
                 <div className="w-px h-full bg-gray-300" />
               </div>
               <div className="pt-1 pb-8">
-                <h4 className="mb-2 text-lg font-bold">Dobrý den</h4>
+                <h4 className="mb-2 text-lg font-bold">Seznámení s...</h4>
                 <p className="text-gray-700">
-                  Představení záměru, myšlenky a cíle projektu.
+                  Důkladné seznámení se s myšlenkou, projektem a cíly, kterých
+                  se má dosáhnout.
                 </p>
               </div>
             </div>
@@ -160,7 +161,8 @@ export default function How() {
               <div className="pt-1 pb-8">
                 <h4 className="mb-2 text-lg font-bold">Tvorba</h4>
                 <p className="text-gray-700">
-                  Samotná práce na projektu a informování o průběhu.
+                  Samotná práce na projektu, včetně informování o průběhu prací
+                  (pracovní verze viditelná pro klienty)
                 </p>
               </div>
             </div>
@@ -195,11 +197,10 @@ export default function How() {
                 <div className="w-px h-full bg-gray-300" />
               </div>
               <div className="pt-1 pb-8">
-                <h4 className="mb-2 text-lg font-bold">Ladění</h4>
+                <h4 className="mb-2 text-lg font-bold">Testování a ladění</h4>
                 <p className="text-gray-700">
-                  Finální testování a ladění projektu na pracovní doméně.
-                  Společně si projdeme celý projekt a najdeme mušky, které
-                  následně vychytám.
+                  Finální testování a ladění projektu. Společně si projdeme celý
+                  projekt a najdeme mušky, které následně vychytám.
                 </p>
               </div>
             </div>
@@ -236,7 +237,7 @@ export default function How() {
               <div className="pt-1 pb-8">
                 <h4 className="mb-2 text-lg font-bold">Finále</h4>
                 <p className="text-gray-700">
-                  Dokončení projektu, nasazení do ostrého provozu.
+                  Dokončení a předání projektu, nasazení do ostrého provozu.
                 </p>
               </div>
             </div>
