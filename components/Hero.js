@@ -2,34 +2,24 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
-  let prescription = {
-    prescriptionDate: new Date(), // Today
-    prescriptionExpirationDate: 23, // Days to add
-  };
-
-  let date = new Date(
-    new Date(prescription.prescriptionDate).setDate(
-      prescription.prescriptionDate.getDate() +
-        prescription.prescriptionExpirationDate
-    )
-  ).toLocaleDateString("cs-CZ");
-  // let den = date.getMonth;
-
   return (
     <div className="w-full sm:bg-slate-100 shadow-xl">
       <div className="relative flex flex-wrap max-w-full justify-between md:justify-start lg:max-w-screen-2xl px-4 md:py-0 mx-auto max-h-96 md:max-h-[700px] overflow-hidden">
         <div className="w-full my-12 lg:max-w-xl xl:max-w-2xl mx-0 md:mx-4 lg:mx-0">
           <div className="mx-auto">
             <div className="relative mb-4 lg:mt-16 p-8 bg-slate-100/70 backdrop-blur-sm rounded-2xl z-20">
-              {/* <p className="inline-block mb-0 text-lg font-bold md:font-normal text-gray-900">
-                jsem
+              <p className="inline-block mb-0 text-lg font-bold md:font-normal text-gray-900  pt-12">
+                tvořím
               </p>
-              <h2 className="max-w-lg mb-2 text-2xl font-black text-gray-900 sm:text-4xl sm:leading-none">
+              {/* <h2 className="max-w-lg mb-2 text-2xl font-black text-gray-900 sm:text-4xl sm:leading-none">
                 Zbyněk Svoboda
               </h2> */}
-              <h1 className="max-w-xl pt-12 md:pb-20 text-5xl font-extrabold text-gray-900 sm:text-7xl sm:leading-none uppercase">
-                tvůrce webů a <br className="block md:hidden" />
-                webových aplikací
+              <h1 className="max-w-xl md:pb-20 text-5xl font-extrabold text-gray-900 sm:text-7xl sm:leading-none uppercase leading-10">
+                rychlé,
+                <br />
+                přehledné&nbsp;a
+                <br />
+                moderní weby <br className="block md:hidden" />
               </h1>
 
               {/* <Link href="#about_me">
@@ -37,9 +27,6 @@ export default function Hero() {
                   Jsem Vám k dispozici
                 </p>
               </Link> */}
-              <p className="text-sm">
-                {/* Začněme dnes, ale pracovat na Vašem projektu mohu až {date} */}
-              </p>
             </div>
           </div>
         </div>

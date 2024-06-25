@@ -23,7 +23,7 @@ export default function Navbar() {
               Zbyněk SVOBODA
             </span>
           </Link>
-          <ul className="lg:flex items-center hidden space-x-8">
+          <ul className="lg:flex items-center hidden space-x-8 underline underline-offset-4 decoration-gray-500">
             <li>
               <Link
                 href="/#s_cim_vam_pomohu"
@@ -31,7 +31,7 @@ export default function Navbar() {
                 title="S čím vám pomohu"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                S čím vám pomohu
+                tvorba webu
               </Link>
             </li>
 
@@ -42,7 +42,7 @@ export default function Navbar() {
                 title="Reference"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Reference
+                reference
               </Link>
             </li>
 
@@ -53,7 +53,7 @@ export default function Navbar() {
                 title="Spolupráce"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Spolupráce
+                průběh
               </Link>
             </li>
 
@@ -64,7 +64,7 @@ export default function Navbar() {
                 title="Recenze"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Recenze
+                řekli o mé práci
               </Link>
             </li>
 
@@ -75,7 +75,7 @@ export default function Navbar() {
                 title="Ceník"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Ceník
+                ceny
               </Link>
             </li>
 
@@ -86,7 +86,7 @@ export default function Navbar() {
                 title="Kontakt"
                 className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Kontakt
+                kontakt
               </Link>
             </li>
           </ul>

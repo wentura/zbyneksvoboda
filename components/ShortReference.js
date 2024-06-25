@@ -19,10 +19,9 @@ export default function ShortReference() {
               Webové prezentace{" "}
             </h1>
             <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-              Webové prezentace založené na moderních designových trendech a
-              nejnovějších technologiích, což zaručuje, že vaše stránky budou
-              vypadat nejen skvěle, ale také se budou rychle načítat a
-              poskytovat optimální uživatelský zážitek.
+              Moderní technologie a aktuální webdesignové trendy zaručují, že
+              vaše weby budou vypadat nejen skvěle, ale také se budou rychle
+              načítat a poskytovat optimální uživatelský zážitek.
               <br />
               <br />
               Moje služny zahrnují procesy od návrhu až po spuštění do ostrého
@@ -252,9 +251,8 @@ export default function ShortReference() {
               E-shopy{" "}
             </h1>
             <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
-              E-shopová řešení stavím na osvědčených platformách Shoptet a
-              Woocommerce, která úpravami doladím pro klienta ke spokojenosti
-              jeho i jeho zákazníků.
+              Řešení stavím na osvědčených platformách Shoptet a Woocommerce,
+              která úpravami doladím pro ke spokojenosti vás a vašich klientů.
               <br />
               <br />
               Od návrhu struktury, jednotné vizuální podoby až po automatické
@@ -510,7 +508,9 @@ export default function ShortReference() {
             </h1>
             <p className="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">
               Postavit řešení na &quot;zelené louce&quot; je výzva, kterou mám
-              velmi rád. Od prvotního návrhu, až po spuštění do ostrého provozu.
+              velmi rád.
+              <br />
+              Od prvotního návrhu, až po spuštění do ostrého provozu.
             </p>
           </div>
         </div>
