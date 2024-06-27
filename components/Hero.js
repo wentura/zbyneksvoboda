@@ -14,7 +14,7 @@ export default function Hero() {
               {/* <h2 className="max-w-lg mb-2 text-2xl font-black text-gray-900 sm:text-4xl sm:leading-none">
                 Zbyněk Svoboda
               </h2> */}
-              <h1 className="max-w-xl md:pb-20 text-5xl font-extrabold text-gray-900 sm:text-7xl sm:leading-none uppercase leading-10">
+              <h1 className="max-w-xl md:pb-20 text-3xl font-extrabold text-gray-900 sm:text-5xl md:text-7xl sm:leading-none uppercase leading-10">
                 rychlé,
                 <br />
                 přehledné&nbsp;a
