@@ -10,7 +10,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="navbar w-full sticky top-0 bg-white">
+    <div className="sticky top-0 w-full bg-white navbar">
       <div className="px-4 py-2 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="relative flex items-center justify-between">
           <Link
@@ -23,7 +23,7 @@ export default function Navbar() {
               Zbyněk SVOBODA
             </span>
           </Link>
-          <ul className="lg:flex items-center hidden space-x-8 underline underline-offset-4 decoration-gray-500">
+          <ul className="items-center hidden space-x-8 underline lg:flex underline-offset-4 decoration-gray-500">
             <li>
               <Link
                 href="/#s_cim_vam_pomohu"
@@ -46,7 +46,7 @@ export default function Navbar() {
               </Link>
             </li>
 
-            <li>
+            {/* <li>
               <Link
                 href="/#jak_pracuji"
                 aria-label="Spolupráce"
@@ -55,7 +55,7 @@ export default function Navbar() {
               >
                 průběh
               </Link>
-            </li>
+            </li> */}
 
             <li>
               <Link
@@ -68,7 +68,7 @@ export default function Navbar() {
               </Link>
             </li>
 
-            <li>
+            {/* <li>
               <Link
                 href="/#cenik"
                 aria-label="Ceník"
@@ -77,7 +77,7 @@ export default function Navbar() {
               >
                 ceny
               </Link>
-            </li>
+            </li> */}
 
             <li>
               <Link
@@ -93,7 +93,7 @@ export default function Navbar() {
           <div className="lg:hidden">
             <button
               type="button"
-              className="p-4 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50 z-50 bg-white"
+              className="z-50 p-4 -mr-1 transition duration-200 bg-white rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
               onClick={toggleMenu}
             >
               <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -135,7 +135,7 @@ export default function Navbar() {
                     </button>
                   </div>
                 </div>
-                <nav className="text-center pb-8">
+                <nav className="pb-8 text-center">
                   <ul className="space-y-4">
                     <Link
                       href="/"

@@ -31,9 +31,9 @@ export default function Home() {
       <Services />
       <ShortReference />
       <Logos />
-      <How />
+      {/* <How /> */}
       <References />
-      <Price />
+      {/* <Price /> */}
       {/* <Contact /> */}
       <About id="about_me" />
     </main>
